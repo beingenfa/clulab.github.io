@@ -7,7 +7,7 @@ order: 1
 
 #### Faculty ####
 
-[Steven Bethard](http://bethard.faculty.arizona.edu), School of Information, Linguistics, Computer Science, Cognitive Science
+[Steven Bethard](http://bethard.github.io), School of Information, Linguistics, Computer Science, Cognitive Science
 
 [Eduardo Blanco](https://eduardoblanco.github.io/), Computer Science
 
