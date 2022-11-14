@@ -6,7 +6,7 @@ order: 6
 
 #### Deep Learning for Natural Language Processing: A Gentle Introduction ####
 
-Latest draft: [August 17, 2022](gentlenlp/gentlenlp-book-08172022.pdf)
+Latest draft: [August 17, 2022](gentlenlp/book/gentlenlp-book-08172022.pdf)
 
 The code discussed in the implementation chapters is available [here](https://github.com/clulab/gentlenlp).
 
@@ -34,10 +34,10 @@ CHANGES:
 * **01/27/2021:** Added Chapter 7: Distributional Hypothesis and Representation Learning
 
 (Some) SLIDES:
-* [Chapter 5](gentlenlp/nnintro-ffnn.pptx)
-* [Chapter 6](gentlenlp/nnintro-best.pptx)
-* [Chapter 8](gentlenlp/nnintro-dist.pptx)
-* [Chapter 10](gentlenlp/nnintro-transformer.pptx)
+* [Chapter 5](gentlenlp/book/nnintro-ffnn.pptx)
+* [Chapter 6](gentlenlp/book/nnintro-best.pptx)
+* [Chapter 8](gentlenlp/book/nnintro-dist.pptx)
+* [Chapter 10](gentlenlp/book/nnintro-transformer.pptx)
 
 You are welcome to use the slides any way you wish. But I would appreciate providing credit. And, optionally, dropping me a note if you found them useful.
 
