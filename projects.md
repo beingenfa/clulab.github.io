@@ -19,10 +19,14 @@ order: 3
 
 *Automated Domain Adaptation for Clinical Natural Language Processing*. Sponsor: NIH NLM under award [R01LM012918](https://projectreporter.nih.gov/project_info_details.cfm?aid=9579181&icde=41083504).
 
-*A Data Science Platform and Mechanisms for Its Sustainability*. Sponsor: NSF SMA RIDIR under award [1831551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1831551).
+*Using Natural Language Processing to Determine Predictors of Healthy Diet and Physical Activity Behavior Change in Ovarian Cancer Survivors*. Sponsor: NIH NCI under award [R21CA256680](https://reporter.nih.gov/project-details/10510666)
+ 
+*Learning science concepts through metaphor comprehension, production, and conversation: Behavioral, neural and artificial intelligence measures*. Sponsor: NSF BCS under award [2140897](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2140897).
 
 
 #### Past Projects ####
+
+*A Data Science Platform and Mechanisms for Its Sustainability*. Sponsor: NSF SMA RIDIR under award [1831551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1831551).
 
 *SCH: Enhancing Nurse Decision-Making via Augmented Communication Tools (ACTs)*. Sponsor: NIH, within the [National Institute of Biomedical Imaging and Bioengineering program](https://www.nibib.nih.gov/node/52681).
 
