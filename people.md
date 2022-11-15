@@ -57,7 +57,7 @@ Fan Luo, Computer Science
 
 [Sarah Stueve](https://ischool.arizona.edu/people/sarah-stueve), School of Information
 
-[Xin Su](https://ischool.arizona.edu/people/xin-su), School of Information
+[Xin Su](https://xinsu.name), School of Information
 
 [Zheng Tang](http://www.ztang.info), Computer Science
 
