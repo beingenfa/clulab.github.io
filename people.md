@@ -17,13 +17,14 @@ order: 1
 
 [Clayton Morrison](http://w3.sista.arizona.edu/~clayton/), School of Information, Statistics GIDP
 
+[Adarsh Pyarelal](http://adarsh.cc), School of Information
+
 [Mihai Surdeanu](http://www.surdeanu.info/mihai) ([@msurd](https://twitter.com/msurd)), Computer Science, Linguistics, Cognitive Science
 
 #### Postdocs, Research Scientists ####
 
 Egoitz Laparra, School of Information
 
-[Adarsh Pyarelal](http://adarsh.cc), School of Information
 
 Marco A. Valenzuela-Escarcega, Computer Science
 
@@ -92,7 +93,7 @@ Ajay Nagesh was a postdoc in the lab until December 2018. He is now at [Didi Lab
 
 [Dane Bell](http://www.u.arizona.edu/~dane/) obtained his PhD in Linguistics in 2018. He is currently at [lum.ai](https://lum.ai), which he co-founded.
 
-Thomas Hicks was a research programmer in our group. He now resides in the School of Information at UA. 
+Thomas Hicks was a research programmer in our group. He now resides in the School of Information at UA.
 
 [Rebecca Sharp](http://linguistics.arizona.edu/user/rebecca-sharp) obtained her PhD in Linguistics in 2017 and is now a Research Scientist at [Lex Machina](https://lexmachina.com).
 
