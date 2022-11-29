@@ -23,7 +23,7 @@ order: 1
 
 #### Postdocs, Research Scientists ####
 
-Egoitz Laparra, School of Information
+[Egoitz Laparra](https://egolaparra.github.io), School of Information
 
 
 Marco A. Valenzuela-Escarcega, Computer Science
