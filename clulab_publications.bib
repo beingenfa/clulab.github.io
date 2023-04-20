@@ -1,3 +1,22 @@
+
+@inproceedings{Vacareanu2022PatternRankJR,
+    title = {PatternRank: Jointly Ranking Patterns and Extractions for Relation Extraction Using Graph-Based Algorithms},
+    author = {Robert Vacareanu and Dane Bell and Mihai Surdeanu},
+    booktitle = {PANDL},
+    abstract="{In this paper we revisit the direction of using lexico-syntactic patterns for relation extraction instead of today's ubiquitous neural classifiers. We propose a semi-supervised graph-based algorithm for pattern acquisition that scores patterns and the relations they extract jointly, using a variant of PageRank. We insert light supervision in the form of seed patterns or relations, and model it with several custom teleportation probabilities that bias random-walk scores of patterns/relations based on their proximity to correct information. We evaluate our approach on Few-Shot TACRED, and show that our method outperforms (or performs competitively with) more expensive and opaque deep neural networks. Lastly, we thoroughly compare our proposed approach with the seminal RlogF pattern acquisition algorithm of, showing that it outperforms it for all the hyper parameters tested, in all settings. }",
+    url = {https://aclanthology.org/2022.pandl-1.1.pdf},
+    year = {2022}
+}
+
+@article{Vacareanu2022AHI,
+    title = {A Human-machine Interface for Few-shot Rule Synthesis for Information Extraction},
+    author = {Robert Vacareanu and George Caique Gouveia Barbosa and Enrique Noriega-Atala and Gus Hahn-Powell and Rebecca Sharp and Marco Antonio Valenzuela-Escarcega and Mihai Surdeanu},
+    journal = {Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: System Demonstrations},
+    abstract = "{We propose a system that assists a user in constructing transparent information extraction models, consisting of patterns (or rules) written in a declarative language, through program synthesis.Users of our system can specify their requirements through the use of examples,which are collected with a search interface.The rule-synthesis system proposes rule candidates and the results of applying them on a textual corpus; the user has the option to accept the candidate, request another option, or adjust the examples provided to the system.Through an interactive evaluation, we show that our approach generates high-precision rules even in a 1-shot setting. On a second evaluation on a widely-used relation extraction dataset (TACRED), our method generates rules that outperform considerably manually written patterns.Our code, demo, and documentation is available at https://clulab.github.io/odinsynth.}",
+    url = {https://aclanthology.org/2022.naacl-demo.8.pdf},
+    year = {2022}
+}
+
 @inproceedings{nitschke-etal-2022-rule,
     title = "Rule Based Event Extraction for Artificial Social Intelligence",
     author = "Nitschke, Remo  and
