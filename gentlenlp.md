@@ -6,11 +6,12 @@ order: 6
 
 #### Deep Learning for Natural Language Processing: A Gentle Introduction ####
 
-Latest draft: [December 23, 2022](gentlenlp/book/gentlenlp-book-12232022.pdf)
+Latest draft: [May 11, 2023](gentlenlp/book/gentlenlp-book-05112023.pdf)
 
 The code discussed in the implementation chapters is available [here](https://github.com/clulab/gentlenlp).
 
 CHANGES:
+* **05/11/2023:** Improved introduction. Fixes several bugs in chapter 5 and 12. 
 * **12/23/2022:** Added index. Various small changes.
 * **08/17/2022:** Added Appendix A. Many small changes.
 * **07/28/2022:** Added chapter 15 - implementing encoder-decoder methods. Many small changes throughout.
