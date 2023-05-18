@@ -25,7 +25,6 @@ order: 1
 
 [Egoitz Laparra](https://egolaparra.github.io), School of Information
 
-
 Marco A. Valenzuela-Escarcega, Computer Science
 
 [Enrique Noriega](https://enoriega.info), Computer Science
@@ -33,23 +32,19 @@ Marco A. Valenzuela-Escarcega, Computer Science
 
 #### Students ####
 
+Sushma Akoju, Computer Science
+
+Fahmida Alam, Computer Science
+
 Maria Alexeeva, Linguistics
 
 John Culnan, Linguistics
-
-[George C. G. Barbosa](http://gcgbarbosa.com/), Computer Science
 
 [Enfa Rose George](https://www.enfageorge.com), Computer Science
 
 [Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
 
-[Zhengzhong Liang](https://zhengzhongliang.github.io), Computer Science
-
-Fan Luo, Computer Science
-
 [Bulut Özler](https://ischool.arizona.edu/people/bulut-ozler), School of Information
-
-[Mithun Paul](https://www2.cs.arizona.edu/people/mithunpaul/), Computer Science
 
 [Mahdi Rahimi](https://www.cs.arizona.edu/person/mahdi-rahimi), Computer Science
 
@@ -59,11 +54,7 @@ Fan Luo, Computer Science
 
 [Xin Su](https://xinsu.name), School of Information
 
-[Zheng Tang](http://www.ztang.info), Computer Science
-
 [Robert Vacareanu](https://www.cs.arizona.edu/person/robert-vacareanu), Computer Science
-
-Hoang Nguyen Hung Van, Computer Science
 
 [Zeyu Zhang](https://jerryzeyu.github.io/), School of Information
 
@@ -77,6 +68,16 @@ Andrew Lee Zupon, Linguistics
 [Keith Alcock](http://www.keithalcock.com), Computer Science
 
 #### Alumni ####
+
+[Zhengzhong Liang](https://zhengzhongliang.github.io) obtained his PhD in 2023. He is currently at Google.
+
+[Mithun Paul](https://www2.cs.arizona.edu/people/mithunpaul/) obtained his PhD in Computer Science in 2022. He is currently a postdoctoral researcher at USC.
+
+Hoang Nguyen Hung Van obtained his PhD in Computer Science in 2022. He is currently a postdoctoral researcher at UC Boulder.
+
+Fan Luo obtained her PhD in Computer Science in 2022. She is currently an applied scientist at Amazon Web Services.
+
+[Zheng Tang](http://www.ztang.info) obtained his PhD in Computer Science in 2022. He is currently a research scientist at Samsung.
 
 [Dongfang Xu](https://www.linkedin.com/in/dongfangxu9/) obtained his PhD in Information in 2021.
 He is currently a Research Fellow at the [Computational Health Informatics Program (CHIP) at Boston Children's Hospital.](http://chip.org/)
