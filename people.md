@@ -36,7 +36,7 @@ Sushma Akoju, Computer Science
 
 Fahmida Alam, Computer Science
 
-Maria Alexeeva, Linguistics
+[Maria Alexeeva](https://maxaalexeeva.github.io/), Linguistics
 
 John Culnan, Linguistics
 
@@ -60,7 +60,7 @@ John Culnan, Linguistics
 
 [Yiyun Zhao](https://yiyunzhao.github.io/), Linguistics
 
-Andrew Lee Zupon, Linguistics
+[Andrew Lee Zupon](https://zupon.github.io/), Linguistics
 
 
 #### Research Programmers ####
