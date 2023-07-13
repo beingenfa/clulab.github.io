@@ -40,7 +40,7 @@ Fahmida Alam, Computer Science
 
 John Culnan, Linguistics
 
-[Enfa Rose George](https://www.enfageorge.com), Computer Science
+[Enfa Rose George](https://www.beingenfa.com), Computer Science
 
 [Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
 
