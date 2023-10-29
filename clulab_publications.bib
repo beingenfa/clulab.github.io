@@ -11,17 +11,19 @@
 @inproceedings{kwak-et-al-nllp2023-error-analysis,
     title = "Transferring Legal Natural Language Inference Model from a US State to Another: What Makes It So Hard?",
     author = "Alice Kwak and Gaetano Forte and Derek Bambauer and Mihai Surdeanu",
-    journal = "Proceedings of the Natural Legal Language Processing Workshop 2023",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2023",
+    month = dec,
+    year = "2023",
     abstract = "This study investigates whether a legal natural language inference (NLI) model trained on the data from one US state can be transferred to another state. We fine-tuned a pre-trained model on the task of evaluating the validity of legal will statements, once with the dataset containing the Tennessee wills and once with the dataset containing the Idaho wills. Each model’s performance on the in-domain setting and the out-of-domain setting are compared to see if the models can across the states. We found that the model trained on one US state can be mostly transferred to another state. However, it is clear that the model’s performance drops in the out-of-domain setting. The F1 scores of the Tennessee model and the Idaho model are 96.41 and 92.03 when predicting the data from the same state, but they drop to 66.32 and 81.60 when predicting the data from another state. Subsequent error analysis revealed that there are two major sources of errors. First, the model fails to recognize equivalent laws across states when there are stylistic differences between laws. Second, difference in statutory section numbering system between the states makes it difficult for the model to locate laws relevant to the cases being predicted on. This analysis provides insights on how the future NLI system can be improved. Also, our findings offer empirical support to legal experts advocating the standardization of legal documents.",
-    year = {2023}
 }
 
 @inproceedings{kwak-et-al-emnlp2023-ie4wills,
-    title = "Information Extraction from LegalWills: How Well Does GPT-4 Do?",
+    title = "Information Extraction from Legal Wills: How Well Does GPT-4 Do?",
     author = "Alice Kwak and Cheonkam Jeong and Gaetano Forte and Derek Bambauer and Clayton Morrison and Mihai Surdeanu",
-    journal = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
     abstract = "This work presents a manually annotated dataset for Information Extraction (IE) from legal wills, and relevant in-context learning experiments on the dataset. The dataset consists of entities, binary relations between the entities (e.g., relations between testator and beneficiary), and n-ary events (e.g., bequest) extracted from 45 legal wills from two US states. This dataset can serve as a foundation for downstream tasks in the legal domain. Another use case of this dataset is evaluating the performance of large language models (LLMs) on this IE task. We evaluated GPT-4 with our dataset to investigate its ability to extract information from legal wills. Our evaluation result demonstrates that the model is capable of handling the task reasonably well. When given instructions and examples as a prompt, GPT-4 shows decent performance for both entity extraction and relation extraction tasks. Nevertheless, the evaluation result also reveals that the model is not perfect. We observed inconsistent outputs (given a prompt) as well as prompt over-generalization.",
-    year = {2023}
 }
 
 @inproceedings{rahimi-surdeanu-2023-improving,
