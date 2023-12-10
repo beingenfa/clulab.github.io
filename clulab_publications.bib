@@ -1,3 +1,39 @@
+@inproceedings{qamar-etal-2023-speaking,
+    title = "Who is Speaking? Speaker-Aware Multiparty Dialogue Act Classification",
+    author = "Qamar, Ayesha  and
+      Pyarelal, Adarsh  and
+      Huang, Ruihong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.678",
+    pages = "10122--10135",
+    abstract = "Utterances do not occur in isolation in dialogues; it is essential to have the information of who the speaker of an utterance is to be able to recover the speaker{'}s intention with respect to the surrounding context. Beyond simply capturing speaker switches, identifying how speakers interact with each other in a dialogue is crucial to understanding conversational flow. This becomes increasingly important and simultaneously difficult to model when more than two interlocutors take part in a conversation. To overcome this challenge, we propose to explicitly add speaker awareness to each utterance representation. To that end, we use a graph neural network to model how each speaker is behaving within the local context of a conversation. The speaker representations learned this way are then used to update their respective utterance representations. We experiment with both multiparticipant and dyadic conversations on the MRDA and SwDA datasets and show the effectiveness of our approach.",
+}
+
+@inproceedings{miah-etal-2023-hierarchical,
+    title = "Hierarchical Fusion for Online Multimodal Dialog Act Classification",
+    author = "Miah, Md Messal Monem  and
+      Pyarelal, Adarsh  and
+      Huang, Ruihong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.505",
+    pages = "7532--7545",
+    abstract = "We propose a framework for online multimodal dialog act (DA) classification based on raw audio and ASR-generated transcriptions of current and past utterances. Existing multimodal DA classification approaches are limited by ineffective audio modeling and late-stage fusion. We showcase significant improvements in multimodal DA classification by integrating modalities at a more granular level and incorporating recent advancements in large language and audio models for audio feature extraction. We further investigate the effectiveness of self-attention and cross-attention mechanisms in modeling utterances and dialogs for DA classification. We achieve a substantial increase of 3 percentage points in the F1 score relative to current state-of-the-art models on two prominent DA classification datasets, MRDA and EMOTyDA.",
+}
+
 @inproceedings{cooper-OTH-2023-EMNLP,
     title = "Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs",
     author = "Portia Cooper and Mihai Surdeanu and Eduardo Blanco",
@@ -42,19 +78,19 @@
     abstract = "While fully supervised relation classification (RC) models perform well on large-scale datasets, their performance drops drastically in low-resource settings. As generating annotated examples are expensive, recent zero-shot methods have been proposed that reformulate RC into other NLP tasks for which supervision exists such as textual entailment. However, these methods rely on templates that are manually created which is costly and requires domain expertise. In this paper, we present a novel strategy for template generation for relation classification, which is based on adapting Harris{'} distributional similarity principle to templates encoded using contextualized representations. Further, we perform empirical evaluation of different strategies for combining the automatically acquired templates with manual templates. The experimental results on TACRED show that our approach not only performs better than the zero-shot RC methods that only use manual templates, but also that it achieves state-of-the-art performance for zero-shot TACRED at 64.3 F1 score.",
 }
 
-@inproceedings{george-surdeanu-2023-sexually,  
-    title = "It{'}s not Sexually Suggestive; It{'}s Educative | Separating Sex Education from Suggestive Content on {T}ik{T}ok Videos",  
-    author = "George, Enfa  and  
-      Surdeanu, Mihai",  
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",  
-    month = jul,  
-    year = "2023",  
-    address = "Toronto, Canada",  
-    publisher = "Association for Computational Linguistics",  
-    url = "https://aclanthology.org/2023.findings-acl.365",  
-    pages = "5904--5915",  
-    abstract = "We introduce SexTok, a multi-modal dataset composed of TikTok videos labeled as sexually suggestive (from the annotator{'}s point of view), sex-educational content, or neither. Such a dataset is necessary to address the challenge of distinguishing between sexually suggestive content and virtual sex education videos on TikTok. Children{'}s exposure to sexually suggestive videos has been shown to have adversarial effects on their development (Collins et al. 2017). Meanwhile, virtual sex education, especially on subjects that are more relevant to the LGBTQIA+ community, is very valuable (Mitchell et al. 2014). The platform{'}s current system removes/punishes some of both types of videos, even though they serve different purposes. Our dataset contains video URLs, and it is also audio transcribed. To validate its importance, we explore two transformer-based models for classifying the videos. Our preliminary results suggest that the task of distinguishing between these types of videos is learnable but challenging. These experiments suggest that this dataset is meaningful and invites further study on the subject.",  
-}  
+@inproceedings{george-surdeanu-2023-sexually,
+    title = "It{'}s not Sexually Suggestive; It{'}s Educative | Separating Sex Education from Suggestive Content on {T}ik{T}ok Videos",
+    author = "George, Enfa  and
+      Surdeanu, Mihai",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.365",
+    pages = "5904--5915",
+    abstract = "We introduce SexTok, a multi-modal dataset composed of TikTok videos labeled as sexually suggestive (from the annotator{'}s point of view), sex-educational content, or neither. Such a dataset is necessary to address the challenge of distinguishing between sexually suggestive content and virtual sex education videos on TikTok. Children{'}s exposure to sexually suggestive videos has been shown to have adversarial effects on their development (Collins et al. 2017). Meanwhile, virtual sex education, especially on subjects that are more relevant to the LGBTQIA+ community, is very valuable (Mitchell et al. 2014). The platform{'}s current system removes/punishes some of both types of videos, even though they serve different purposes. Our dataset contains video URLs, and it is also audio transcribed. To validate its importance, we explore two transformer-based models for classifying the videos. Our preliminary results suggest that the task of distinguishing between these types of videos is learnable but challenging. These experiments suggest that this dataset is meaningful and invites further study on the subject.",
+}
 
 @inproceedings{Vacareanu2022PatternRankJR,
     title = {PatternRank: Jointly Ranking Patterns and Extractions for Relation Extraction Using Graph-Based Algorithms},
