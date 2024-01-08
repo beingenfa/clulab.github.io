@@ -19,6 +19,8 @@ order: 1
 
 [Adarsh Pyarelal](http://adarsh.cc), School of Information
 
+[Ellen Riloff](http://www2.cs.arizona.edu/~riloff/) ([@ellenriloff](https://twitter.com/ellenriloff)), Computer Science
+
 [Mihai Surdeanu](http://www.surdeanu.info/mihai) ([@msurd](https://twitter.com/msurd)), Computer Science, Linguistics, Cognitive Science
 
 #### Postdocs, Research Scientists ####
@@ -38,7 +40,7 @@ Fahmida Alam, Computer Science
 
 John Culnan, Linguistics
 
-[Enfa Rose George](https://www.enfageorge.com), Computer Science
+[Enfa Rose George](https://www.beingenfa.com), Computer Science
 
 [Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
 

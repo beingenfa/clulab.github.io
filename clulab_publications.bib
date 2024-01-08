@@ -1,28 +1,105 @@
-@inproceedings{sushma-surdeanu-2023-sicck,
-    title = "Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference",
-    author = "Akoju, Sushma, and Vacareanu, Robert and Riaz, Haris, and Blanco, Eduardo, and Surdeanu, Mihai",
-    booktitle = "to-be-released, Natural Language Reasoning and Structured Explanations Workshop, ACL 2023",
-    month = jul,
+@inproceedings{qamar-etal-2023-speaking,
+    title = "Who is Speaking? Speaker-Aware Multiparty Dialogue Act Classification",
+    author = "Qamar, Ayesha  and
+      Pyarelal, Adarsh  and
+      Huang, Ruihong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
     year = "2023",
-    address = "Toronto, Canada",  
-    publisher = "Association for Computational Linguistics", 
-    url = "https://arxiv.org/abs/2307.05034",
-    abstract = "We introduce a synthetic dataset called Sentences Involving Complex Compositional Knowledge (SICCK) and a novel analysis that investigates the performance of Natural Language Inference (NLI) models to understand compositionality in logic. We produce 1,304 sentence pairs by modifying 15 examples from the SICK dataset (Marelli et al., 2014). To this end, we modify the original texts using a set of phrases – modifiers that correspond to universal quantifiers, existential quantifiers, negation, and other concept modifiers in Natural Logic (NL) (MacCartney, 2009). We use these phrases to modify the subject, verb, and object parts of the premise and hypothesis. Lastly, we annotate these modified texts with the corresponding entailment labels following NL rules. We conduct a preliminary verification of how well the change in the structural and semantic composition is captured by neural NLI models, in both zero-shot and fine-tuned scenarios. We found that the performance of NLI models under the zero-shot setting is poor, especially for modified sentences with negation and existential quantifiers. After fine-tuning this dataset, we observe that models continue to perform poorly over negation, existential and universal modifiers.",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.678",
+    pages = "10122--10135",
+    abstract = "Utterances do not occur in isolation in dialogues; it is essential to have the information of who the speaker of an utterance is to be able to recover the speaker{'}s intention with respect to the surrounding context. Beyond simply capturing speaker switches, identifying how speakers interact with each other in a dialogue is crucial to understanding conversational flow. This becomes increasingly important and simultaneously difficult to model when more than two interlocutors take part in a conversation. To overcome this challenge, we propose to explicitly add speaker awareness to each utterance representation. To that end, we use a graph neural network to model how each speaker is behaving within the local context of a conversation. The speaker representations learned this way are then used to update their respective utterance representations. We experiment with both multiparticipant and dyadic conversations on the MRDA and SwDA datasets and show the effectiveness of our approach.",
 }
 
-@inproceedings{george-surdeanu-2023-sexually,  
-    title = "It{'}s not Sexually Suggestive; It{'}s Educative | Separating Sex Education from Suggestive Content on {T}ik{T}ok Videos",  
-    author = "George, Enfa  and  
-      Surdeanu, Mihai",  
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",  
-    month = jul,  
-    year = "2023",  
-    address = "Toronto, Canada",  
-    publisher = "Association for Computational Linguistics",  
-    url = "https://aclanthology.org/2023.findings-acl.365",  
-    pages = "5904--5915",  
-    abstract = "We introduce SexTok, a multi-modal dataset composed of TikTok videos labeled as sexually suggestive (from the annotator{'}s point of view), sex-educational content, or neither. Such a dataset is necessary to address the challenge of distinguishing between sexually suggestive content and virtual sex education videos on TikTok. Children{'}s exposure to sexually suggestive videos has been shown to have adversarial effects on their development (Collins et al. 2017). Meanwhile, virtual sex education, especially on subjects that are more relevant to the LGBTQIA+ community, is very valuable (Mitchell et al. 2014). The platform{'}s current system removes/punishes some of both types of videos, even though they serve different purposes. Our dataset contains video URLs, and it is also audio transcribed. To validate its importance, we explore two transformer-based models for classifying the videos. Our preliminary results suggest that the task of distinguishing between these types of videos is learnable but challenging. These experiments suggest that this dataset is meaningful and invites further study on the subject.",  
-}  
+@inproceedings{miah-etal-2023-hierarchical,
+    title = "Hierarchical Fusion for Online Multimodal Dialog Act Classification",
+    author = "Miah, Md Messal Monem  and
+      Pyarelal, Adarsh  and
+      Huang, Ruihong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.505",
+    pages = "7532--7545",
+    abstract = "We propose a framework for online multimodal dialog act (DA) classification based on raw audio and ASR-generated transcriptions of current and past utterances. Existing multimodal DA classification approaches are limited by ineffective audio modeling and late-stage fusion. We showcase significant improvements in multimodal DA classification by integrating modalities at a more granular level and incorporating recent advancements in large language and audio models for audio feature extraction. We further investigate the effectiveness of self-attention and cross-attention mechanisms in modeling utterances and dialogs for DA classification. We achieve a substantial increase of 3 percentage points in the F1 score relative to current state-of-the-art models on two prominent DA classification datasets, MRDA and EMOTyDA.",
+}
+
+@inproceedings{cooper-etal-2023-hiding,
+    title = "Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs",
+    author = "Cooper, Portia  and
+      Surdeanu, Mihai  and
+      Blanco, Eduardo",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.192",
+    doi = "10.18653/v1/2023.findings-emnlp.192",
+    pages = "2922--2929",
+    abstract = "To avoid detection by current NLP monitoring applications, progenitors of hate speech often replace one or more letters in offensive words with homoglyphs, visually similar Unicode characters. Harvesting real-world hate speech containing homoglyphs is challenging due to the vast replacement possibilities. We developed a character substitution scraping method and assembled the Offensive Tweets with Homoglyphs (OTH) Dataset (N=90,788) with more than 1.5 million occurrences of 1,281 non-Latin characters (emojis excluded). In an annotated sample (n=700), 40.14{\%} of the tweets were found to contain hate speech. We assessed the performance of seven transformer-based hate speech detection models and found that they performed poorly in a zero-shot setting (F1 scores between 0.04 and 0.52) but normalizing the data dramatically improved detection (F1 scores between 0.59 and 0.71). Training the models using the annotated data further boosted performance (highest micro-averaged F1 score=0.88, using five-fold cross validation). This study indicates that a dataset containing homoglyphs known and unknown to the scraping script can be collected, and that neural models can be trained to recognize camouflaged real-world hate speech.",
+}
+
+@inproceedings{kwak-et-al-nllp2023-error-analysis,
+    title = "Transferring Legal Natural Language Inference Model from a US State to Another: What Makes It So Hard?",
+    author = "Alice Kwak and Gaetano Forte and Derek Bambauer and Mihai Surdeanu",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2023",
+    month = dec,
+    year = "2023",
+    url = "https://clulab.org/papers/nllp2023_kwak-et-al.pdf",
+    abstract = "This study investigates whether a legal natural language inference (NLI) model trained on the data from one US state can be transferred to another state. We fine-tuned a pre-trained model on the task of evaluating the validity of legal will statements, once with the dataset containing the Tennessee wills and once with the dataset containing the Idaho wills. Each model’s performance on the in-domain setting and the out-of-domain setting are compared to see if the models can across the states. We found that the model trained on one US state can be mostly transferred to another state. However, it is clear that the model’s performance drops in the out-of-domain setting. The F1 scores of the Tennessee model and the Idaho model are 96.41 and 92.03 when predicting the data from the same state, but they drop to 66.32 and 81.60 when predicting the data from another state. Subsequent error analysis revealed that there are two major sources of errors. First, the model fails to recognize equivalent laws across states when there are stylistic differences between laws. Second, difference in statutory section numbering system between the states makes it difficult for the model to locate laws relevant to the cases being predicted on. This analysis provides insights on how the future NLI system can be improved. Also, our findings offer empirical support to legal experts advocating the standardization of legal documents.",
+}
+
+@inproceedings{kwak-et-al-emnlp2023-ie4wills,
+    title = "Information Extraction from Legal Wills: How Well Does GPT-4 Do?",
+    author = "Alice Kwak and Cheonkam Jeong and Gaetano Forte and Derek Bambauer and Clayton Morrison and Mihai Surdeanu",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    url = "https://clulab.org/papers/emnlp2023_kwak-et-al.pdf",
+    abstract = "This work presents a manually annotated dataset for Information Extraction (IE) from legal wills, and relevant in-context learning experiments on the dataset. The dataset consists of entities, binary relations between the entities (e.g., relations between testator and beneficiary), and n-ary events (e.g., bequest) extracted from 45 legal wills from two US states. This dataset can serve as a foundation for downstream tasks in the legal domain. Another use case of this dataset is evaluating the performance of large language models (LLMs) on this IE task. We evaluated GPT-4 with our dataset to investigate its ability to extract information from legal wills. Our evaluation result demonstrates that the model is capable of handling the task reasonably well. When given instructions and examples as a prompt, GPT-4 shows decent performance for both entity extraction and relation extraction tasks. Nevertheless, the evaluation result also reveals that the model is not perfect. We observed inconsistent outputs (given a prompt) as well as prompt over-generalization.",
+}
+
+@inproceedings{rahimi-surdeanu-2023-improving,
+    title = "Improving Zero-shot Relation Classification via Automatically-acquired Entailment Templates",
+    author = "Rahimi, Mahdi  and
+      Surdeanu, Mihai",
+    booktitle = "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.repl4nlp-1.16",
+    pages = "187--195",
+    abstract = "While fully supervised relation classification (RC) models perform well on large-scale datasets, their performance drops drastically in low-resource settings. As generating annotated examples are expensive, recent zero-shot methods have been proposed that reformulate RC into other NLP tasks for which supervision exists such as textual entailment. However, these methods rely on templates that are manually created which is costly and requires domain expertise. In this paper, we present a novel strategy for template generation for relation classification, which is based on adapting Harris{'} distributional similarity principle to templates encoded using contextualized representations. Further, we perform empirical evaluation of different strategies for combining the automatically acquired templates with manual templates. The experimental results on TACRED show that our approach not only performs better than the zero-shot RC methods that only use manual templates, but also that it achieves state-of-the-art performance for zero-shot TACRED at 64.3 F1 score.",
+}
+
+@inproceedings{george-surdeanu-2023-sexually,
+    title = "It{'}s not Sexually Suggestive; It{'}s Educative | Separating Sex Education from Suggestive Content on {T}ik{T}ok Videos",
+    author = "George, Enfa  and
+      Surdeanu, Mihai",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.365",
+    pages = "5904--5915",
+    abstract = "We introduce SexTok, a multi-modal dataset composed of TikTok videos labeled as sexually suggestive (from the annotator{'}s point of view), sex-educational content, or neither. Such a dataset is necessary to address the challenge of distinguishing between sexually suggestive content and virtual sex education videos on TikTok. Children{'}s exposure to sexually suggestive videos has been shown to have adversarial effects on their development (Collins et al. 2017). Meanwhile, virtual sex education, especially on subjects that are more relevant to the LGBTQIA+ community, is very valuable (Mitchell et al. 2014). The platform{'}s current system removes/punishes some of both types of videos, even though they serve different purposes. Our dataset contains video URLs, and it is also audio transcribed. To validate its importance, we explore two transformer-based models for classifying the videos. Our preliminary results suggest that the task of distinguishing between these types of videos is learnable but challenging. These experiments suggest that this dataset is meaningful and invites further study on the subject.",
+}
 
 @inproceedings{Vacareanu2022PatternRankJR,
     title = {PatternRank: Jointly Ranking Patterns and Extractions for Relation Extraction Using Graph-Based Algorithms},
@@ -77,147 +154,6 @@
         each utterance.",
 }
 
-@inproceedings{xu-bethard-2021-triplet,
-    title = "Triplet-Trained Vector Space and Sieve-Based Search Improve Biomedical Concept Normalization",
-    author = "Xu, Dongfang  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the 20th Workshop on Biomedical Language Processing",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.bionlp-1.2",
-    pages = "11--22",
-    keywords = {term normalization, workshop paper},
-}
-@inproceedings{lin-etal-2021-entitybert,
-    title = "{E}ntity{BERT}: Entity-centric Masking Strategy for Model Pretraining for the Clinical Domain",
-    author = "Lin, Chen  and
-      Miller, Timothy  and
-      Dligach, Dmitriy  and
-      Bethard, Steven  and
-      Savova, Guergana",
-    booktitle = "Proceedings of the 20th Workshop on Biomedical Language Processing",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.bionlp-1.21",
-    pages = "191--201",
-    keywords = {timelines, information extraction, health applications, workshop paper},
-}
-@inproceedings{liang-etal-2021-explainable,
-    title = "Explainable Multi-hop Verbal Reasoning Through Internal Monologue",
-    author = "Liang, Zhengzhong  and
-      Bethard, Steven  and
-      Surdeanu, Mihai",
-    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.naacl-main.97",
-    pages = "1225--1250",
-    note = {[Acceptance rate 26\%]},
-    keywords = {question answering},
-}
-@inproceedings{yadav-etal-2021-want,
-    title = "If You Want to Go Far Go Together: Unsupervised Joint Candidate Evidence Retrieval for Multi-hop Question Answering",
-    author = "Yadav, Vikas  and
-      Bethard, Steven  and
-      Surdeanu, Mihai",
-    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.naacl-main.363",
-    pages = "4571--4581",
-    note = {[Acceptance rate 26\%]},
-    keywords = {question answering},
-}
-@proceedings{naacl-2021-2021,
-    title = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    editor = "Toutanova, Kristina  and
-      Rumshisky, Anna  and
-      Zettlemoyer, Luke  and
-      Hakkani-Tur, Dilek  and
-      Beltagy, Iz  and
-      Bethard, Steven  and
-      Cotterell, Ryan  and
-      Chakraborty, Tanmoy  and
-      Zhou, Yichao",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.naacl-main.0",
-}
-@inproceedings{miller-etal-2021-domain,
-    title = "Domain adaptation in practice: Lessons from a real-world information extraction pipeline",
-    author = "Miller, Timothy  and
-      Laparra, Egoitz  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the Second Workshop on Domain Adaptation for NLP",
-    month = apr,
-    year = "2021",
-    address = "Kyiv, Ukraine",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.adaptnlp-1.11",
-    pages = "105--110",
-    keywords = {domain adaptation, information extraction, workshop paper},
-}
-@article{gonzalez-lopez-2021-PLN,
-  author = {Samuel Gonz\'{a}lez-L\'{o}pez and Steven Bethard and Francisca Cecilia Encinas Orozco and Adri\i{a}n Pastor L\'{o}pez-Monroy},
-  title = {Consumer Cynicism Identiﬁcation for Spanish Reviews using a Spanish Transformer Model},
-  journal = {Procesamiento del Lenguaje Natural},
-  volume = {66},
-  number = {0},
-  year = {2021},
-  issn = {1989-7553},
-  url = {http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6327},
-  pages = {111--120},
-  keywords = {social media},
-}
-@inproceedings{kim-bethard-2020-ttui,
-    title = "{TTUI} at {S}em{E}val-2020 Task 11: Propaganda Detection with Transfer Learning and Ensembles",
-    author = "Kim, Moonsung  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the Fourteenth Workshop on Semantic Evaluation",
-    month = dec,
-    year = "2020",
-    address = "Barcelona (online)",
-    publisher = "International Committee for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.semeval-1.240",
-    pages = "1829--1834",
-    keywords = {shared task paper, locations, information extraction},
-}
-@proceedings{clinicalnlp-2020-clinical,
-    title = "Proceedings of the 3rd Clinical Natural Language Processing Workshop",
-    editor = "Rumshisky, Anna  and
-      Roberts, Kirk  and
-      Bethard, Steven  and
-      Naumann, Tristan",
-    month = nov,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.clinicalnlp-1.0",
-    keywords = {health applications},
-}
-@inproceedings{laparra-bethard-2020-dataset,
-    title = "A Dataset and Evaluation Framework for Complex Geographical Description Parsing",
-    author = "Laparra, Egoitz  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
-    month = dec,
-    year = "2020",
-    address = "Barcelona, Spain (Online)",
-    publisher = "International Committee on Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.coling-main.81",
-    pages = "936--948",
-    keywords = {locations, information extraction},
-}
 @inproceedings{zupon2020capsnet,
   title={An Analysis of Capsule Networks for Part of Speech Tagging in High- and Low-resource Scenarios},
   author={Zupon, Andrew and Rafique, Faiz and Surdeanu, Mihai},
@@ -250,122 +186,6 @@
   year={2020}
 }
 
-@inproceedings{yadav2020having,
-  title={Having Your Cake and Eating it Too: Training Neural Retrieval for Language Inference without Losing Lexical Match},
-  author={Yadav, Vikas and Bethard, Steven and Surdeanu, Mihai},
-  booktitle={Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
-  pages={1625--1628},
-  url = "sigir2020-havingcake.pdf",
-  note = "Erratum: the PDF linked here contains the proper support acknowledgment as well as a COI statement for one of the authors, which are missing in the SIGIR camera-ready paper.",
-  year={2020}
-}
-
-@article{xu-etal-2020-unified,
-    author = {Xu, Dongfang and Gopale, Manoj and Zhang, Jiacheng and Brown, Kris and Begoli, Edmon and Bethard, Steven},
-    title = {Unified Medical Language System resources improve sieve-based generation and Bidirectional Encoder Representations from Transformers (BERT)–based ranking for concept normalization},
-    journal = {Journal of the American Medical Informatics Association},
-    year = {2020},
-    month = {07},
-    issn = {1527-974X},
-    doi = {10.1093/jamia/ocaa080},
-    url = {https://doi.org/10.1093/jamia/ocaa080},
-    keywords = {health applications, term normalization},
-}
-@inproceedings{lin-etal-2020-bert,
-    title = "A {BERT}-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction",
-    author = "Lin, Chen  and
-      Miller, Timothy  and
-      Dligach, Dmitriy  and
-      Sadeque, Farig  and
-      Bethard, Steven  and
-      Savova, Guergana",
-    booktitle = "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.bionlp-1.7",
-    pages = "70-75",
-    keywords = {workshop paper, health applications, timelines, information extraction},
-}
-@inproceedings{gonzalez-lopez-etal-2020-assisting,
-    title = "Assisting Undergraduate Students in Writing {S}panish Methodology Sections",
-    author = "Gonz{\'a}lez-L{\'o}pez, Samuel  and
-      Bethard, Steven  and
-      Lopez-Lopez, Aurelio",
-    booktitle = "Proceedings of the Fifteenth Workshop on Innovative Use of NLP for Building Educational Applications",
-    month = jul,
-    year = "2020",
-    address = "Seattle, WA, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.bea-1.11",
-    pages = "115-123",
-    keywords = {educational applications, workshop paper},
-}
-@inproceedings{xu-etal-2020-generate,
-    title = "A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization",
-    author = "Xu, Dongfang  and
-      Zhang, Zeyu  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.748",
-    pages = "8452-8464",
-    keywords = {health applications},
-}
-@inproceedings{zhao-bethard-2020-berts,
-    title = "How does {BERT}{'}s attention change when you fine-tune? An analysis methodology and a case study in negation scope",
-    author = "Zhao, Yiyun  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.429",
-    pages = "4729-4747",
-    keywords = {negation, machine learning},
-}
-@inproceedings{yadav-etal-2020-unsupervised,
-    title = "Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering",
-    author = "Yadav, Vikas  and
-      Bethard, Steven  and
-      Surdeanu, Mihai",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.414",
-    pages = "4514-4525",
-    keywords = {question answering},
-}
-@article{laparra-bethard-miller:2020:JAMIAOpen,
-    author = {Laparra, Egoitz and Bethard, Steven and Miller, Timothy A},
-    title = "{Rethinking domain adaptation for machine learning over clinical language}",
-    journal = {JAMIA Open},
-    year = {2020},
-    month = {04},
-    issn = {2574-2531},
-    doi = {10.1093/jamiaopen/ooaa010},
-    url = {https://doi.org/10.1093/jamiaopen/ooaa010},
-    keywords = {domain adaptation, health applications},
-}
-@article{10.1093/jamia/ocaa001,
-    author = {Lin, Chen and Bethard, Steven and Dligach, Dmitriy and Sadeque, Farig and Savova, Guergana and Miller, Timothy A},
-    title = "{Does BERT need domain adaptation for clinical negation detection?}",
-    journal = {Journal of the American Medical Informatics Association},
-    year = {2020},
-    month = {02},
-    issn = {1527-974X},
-    doi = {10.1093/jamia/ocaa001},
-    url = {https://doi.org/10.1093/jamia/ocaa001},
-    note = {ocaa001},
-    eprint = {https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocaa001/32437934/ocaa001.pdf},
-}
 @InProceedings{jansen-EtAl:2016:COLING,
   author    = {Jansen, Peter  and  Balasubramanian, Niranjan  and  Surdeanu, Mihai  and  Clark, Peter},
   title     = {What's in an Explanation? Characterizing Knowledge and Inference Requirements for Elementary Science Exams},
@@ -377,64 +197,6 @@
   pages     = {2956-2965},
   url       = {http://aclweb.org/anthology/C16-1278},
   url_Data  = {http://allenai.org/data.html},
-}
-@Book{ClinicalNLP:2016,
-  author    = {Anna Rumshisky  and  Kirk Roberts  and  Steven Bethard  and  Tristan Naumann},
-  title     = {Proceedings of the Clinical Natural Language Processing Workshop (ClinicalNLP)},
-  month     = {12},
-  year      = {2016},
-  address   = {Osaka, Japan},
-  publisher = {The COLING 2016 Organizing Committee},
-  url       = {http://aclweb.org/anthology/W16-42},
-  keywords = {health applications, proceedings},
-}
-@InProceedings{do-bethard-moens:2016:COLING,
-  author    = {Do, Quynh Ngoc Thi  and  Bethard, Steven  and  Moens, Marie-Francine},
-  title     = {Facing the most difficult case of Semantic Role Labeling: A collaboration of word embeddings and co-training},
-  booktitle = {Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},
-  month     = {12},
-  year      = {2016},
-  address   = {Osaka, Japan},
-  publisher = {The COLING 2016 Organizing Committee},
-  pages     = {1275-1284},
-  url       = {http://aclweb.org/anthology/C16-1121},
-  keywords = {semantic relations},
-}
-@InProceedings{sadeque-EtAl:2016:SocialNLP,
-  author    = {Sadeque, Farig  and  Pedersen, Ted  and  Solorio, Thamar  and  Shrestha, Prasha  and  Rey-Villamizar, Nicolas  and  Bethard, Steven},
-  title     = {Why Do They Leave: Modeling Participation in Online Depression Forums},
-  booktitle = {Proceedings of The Fourth International Workshop on Natural Language Processing for Social Media},
-  month     = {11},
-  year      = {2016},
-  address   = {Austin, TX, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {14-19},
-  url       = {http://aclweb.org/anthology/W16-6203},
-  keywords = {health applications, social media, workshop paper},
-}
-@InProceedings{reyvillamizar-EtAl:2016:LOUHI,
-  author    = {Rey-Villamizar, Nicolas  and  Shrestha, Prasha  and  Sadeque, Farig  and  Bethard, Steven  and  Pedersen, Ted  and  Mukherjee, Arjun  and  Solorio, Thamar},
-  title     = {Analysis of Anxious Word Usage on Online Health Forums},
-  booktitle = {Proceedings of the Seventh International Workshop on Health Text Mining and Information Analysis},
-  month     = {11},
-  year      = {2016},
-  address   = {Auxtin, TX},
-  publisher = {Association for Computational Linguistics},
-  pages     = {37-42},
-  url       = {http://aclweb.org/anthology/W16-6105},
-  keywords = {health applications, social media, workshop paper},
-}
-@InProceedings{do-bethard-moens:2016:UBLP,
-  author    = {Do, Quynh Ngoc Thi  and  Bethard, Steven  and  Moens, Marie-Francine},
-  title     = {Visualizing the Content of a Children's Story in a Virtual World: Lessons Learned},
-  booktitle = {Proceedings of the Workshop on Uphill Battles in Language Processing: Scaling Early Achievements to Robust Methods},
-  month     = {11},
-  year      = {2016},
-  address   = {Austin, TX},
-  publisher = {Association for Computational Linguistics},
-  pages     = {39-42},
-  url       = {http://aclweb.org/anthology/W16-6009},
-  keywords = {coreference, semantic relations, educational applications, workshop paper},
 }
 @inproceedings{valenzuela2015identifying,
   title={Identifying meaningful citations},
@@ -675,92 +437,6 @@ year={2013},
 booktitle={Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2013), Workshop on Vision and Language (WVL)},
 url_Slides={http://surdeanu.info/mihai/papers/wvl2013_slides.pdf},
 }
-@InProceedings{lin-EtAl:2017:BioNLP17,
-  author    = {Lin, Chen  and  Miller, Timothy  and  Dligach, Dmitriy  and  Bethard, Steven  and  Savova, Guergana},
-  title     = {Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks},
-  booktitle = {BioNLP 2017},
-  month     = {8},
-  year      = {2017},
-  address   = {Vancouver, Canada,},
-  publisher = {Association for Computational Linguistics},
-  pages     = {322-327},
-  url       = {http://www.aclweb.org/anthology/W17-2341},
-  keywords = {timelines, health applications, workshop paper},
-}
-@InProceedings{miller-EtAl:2017:BioNLP17,
-  author    = {Miller, Timothy  and  Bethard, Steven  and  Amiri, Hadi  and  Savova, Guergana},
-  title     = {Unsupervised Domain Adaptation for Clinical Negation Detection},
-  booktitle = {BioNLP 2017},
-  month     = {8},
-  year      = {2017},
-  address   = {Vancouver, Canada,},
-  publisher = {Association for Computational Linguistics},
-  pages     = {165-170},
-  url       = {http://www.aclweb.org/anthology/W17-2320},
-  keywords = {negation, health applications, workshop paper},
-}
-@InProceedings{viani-EtAl:2017:AIME,
-author="Viani, Natalia
-and Miller, Timothy A.
-and Dligach, Dmitriy
-and Bethard, Steven
-and Napolitano, Carlo
-and Priori, Silvia G.
-and Bellazzi, Riccardo
-and Sacchi, Lucia
-and Savova, Guergana K.",
-editor="ten Teije, Annette
-and Popow, Christian
-and Holmes, John H.
-and Sacchi, Lucia",
-title="Recurrent Neural Network Architectures for Event Extraction from Italian Medical Reports",
-bookTitle="Artificial Intelligence in Medicine: 16th Conference on Artificial Intelligence in Medicine, AIME 2017, Vienna, Austria, June 21-24, 2017, Proceedings",
-year="2017",
-publisher="Springer International Publishing",
-address="Cham",
-pages="198-202",
-isbn="978-3-319-59758-4",
-doi="10.1007/978-3-319-59758-4_21",
-url="https://doi.org/10.1007/978-3-319-59758-4_21",
-keywords = {timelines, health applications},
-}
-@article{miller-EtAl:2017:JBI,
-title = "Towards generalizable entity-centric clinical coreference resolution ",
-journal = "Journal of Biomedical Informatics ",
-volume = "69",
-number = "",
-pages = "251 - 258",
-year = "2017",
-issn = "1532-0464",
-doi = "https://doi.org/10.1016/j.jbi.2017.04.015",
-url = "http://www.sciencedirect.com/science/article/pii/S1532046417300850",
-author = "Timothy Miller and Dmitriy Dligach and Steven Bethard and Chen Lin and Guergana Savova",
-keywords = {coreference, health applications},
-}
-@InProceedings{dligach-EtAl:2017:EACLshort,
-  author    = {Dligach, Dmitriy  and  Miller, Timothy  and  Lin, Chen  and  Bethard, Steven  and  Savova, Guergana},
-  title     = {Neural Temporal Relation Extraction},
-  booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers},
-  month     = {4},
-  year      = {2017},
-  address   = {Valencia, Spain},
-  publisher = {Association for Computational Linguistics},
-  pages     = {746-751},
-  url       = {http://www.aclweb.org/anthology/E17-2118},
-  keywords = {timelines, health applications},
-}
-@InProceedings{bethard-EtAl:2017:SemEval,
-  author    = {Bethard, Steven  and  Savova, Guergana  and  Palmer, Martha  and  Pustejovsky, James},
-  title     = {SemEval-2017 Task 12: Clinical TempEval},
-  booktitle = {Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)},
-  month     = {8},
-  year      = {2017},
-  address   = {Vancouver, Canada},
-  publisher = {Association for Computational Linguistics},
-  pages     = {565-572},
-  url       = {http://www.aclweb.org/anthology/S17-2093},
-  keywords = {timelines, health applications, shared task paper},
-}
 @inproceedings{sharp2017tell,
   title={Tell Me Why: Using Question Answering as Distant Supervision for Answer Justification},
   author={Sharp, Rebecca and Surdeanu, Mihai and Jansen, Peter and Valenzuela-Escarcega, Marco A and Clark, Peter and Hammond, Michael},
@@ -910,237 +586,6 @@ url={http://clulab.org/papers/biocreative6.pdf}
   year={2018},
   url = {https://arxiv.org/pdf/1807.01836.pdf}
 }
-@Article{osborne-etal:2018:JBS,
-
-author="Osborne, John D.
-
-and Neu, Matthew B.
-
-and Danila, Maria I.
-
-and Solorio, Thamar
-
-and Bethard, Steven J.",
-
-title="CUILESS2016: a clinical corpus applying compositional normalization of text mentions",
-
-journal="Journal of Biomedical Semantics",
-
-year="2018",
-
-month="Jan",
-
-day="10",
-
-volume="9",
-
-number="1",
-
-pages="2",
-
-issn="2041-1480",
-
-doi="10.1186/s13326-017-0173-6",
-
-url="https://doi.org/10.1186/s13326-017-0173-6",
-
-keywords = {annotation, health applications},
-
-}
-
-@inproceedings{sadeque-xu-bethard:2018:WSDM,
-
-author = {Sadeque, Farig and Xu, Dongfang and Bethard, Steven},
-
-title = {Measuring the Latency of Depression Detection in Social Media},
-
-booktitle = {Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining},
-
-series = {WSDM '18},
-
-year = {2018},
-
-isbn = {978-1-4503-5581-0},
-
-location = {Marina Del Rey, CA, USA},
-
-pages = {495-503},
-
-numpages = {9},
-
-url = {http://doi.acm.org/10.1145/3159652.3159725},
-
-doi = {10.1145/3159652.3159725},
-
-acmid = {3159725},
-
-publisher = {ACM},
-
-address = {New York, NY, USA},
-
-keywords = {health applications, social media},
-
-}
-
-@InProceedings{do-bethard-moens:2017:I17-1,
-
-  author    = {Do, Quynh Ngoc Thi  and  Bethard, Steven  and  Moens, Marie-Francine},
-
-  title     = {Improving Implicit Semantic Role Labeling by Predicting Semantic Frame Arguments},
-
-  booktitle = {Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
-
-  month     = {11},
-
-  year      = {2017},
-
-  address   = {Taipei, Taiwan},
-
-  publisher = {Asian Federation of Natural Language Processing},
-
-  pages     = {90-99},
-
-  url       = {http://www.aclweb.org/anthology/I17-1010},
-
-  keywords = {semantic relations},
-
-}
-
-@InProceedings{sadeque-xu-bethard:2017:CLEF,
-
-  author = {Farig Sadeque and Dongfang Xu and Steven Bethard},
-
-  title = {{UArizona} at the {CLEF eRisk} 2017 Pilot Task: Linear and Recurrent Models for Early Depression Detection},
-
-  booktitle = {CEUR workshop proceedings: Working Notes of CLEF 2017 - Conference and Labs of the Evaluation Forum},
-
-  address = {Dublin, Ireland},
-
-  month = {9},
-
-  year = {2017},
-
-  url = {http://ceur?ws.org/Vol?1866/paper_58.pdf},
-
-  keywords = {health applications, social media, shared task paper},
-
-}
-@INPROCEEDINGS{pradhan-zhang-bethard:2017:IRI,
-
-author = {Ligaj Pradhan and Chengcui Zhang and Steven Bethard},
-
-booktitle = {2017 IEEE International Conference on Information Reuse and Integration (IRI)},
-
-title = {Infusing Latent User-Concerns from User Reviews into Collaborative Filtering},
-
-year = {2017},
-
-volume = {},
-
-number = {},
-
-pages = {471-477},
-
-doi = {10.1109/IRI.2017.24},
-
-url = {http://doi.ieeecomputersociety.org/10.1109/IRI.2017.24},
-
-month={8},
-
-keywords = {information retrieval, recommender systems, machine learning},
-
-}
-@Book{apidianaki-etal:2018:SemEval,
-
-  editor =              "Apidianaki, Marianna
-
-                                and Mohammad, Saif M.
-
-                                and May, Jonathan
-
-                                and Shutova, Ekaterina
-
-                                and Bethard, Steven
-
-                                and Carpuat, Marine",
-
-  title = "Proceedings of The 12th International Workshop on Semantic Evaluation",
-
-  booktitle =        "Proceedings of The 12th International Workshop on Semantic Evaluation",
-
-  year = "2018",
-
-  month = "6",
-
-  publisher =       "Association for Computational Linguistics",
-
-  location =          "New Orleans, Louisiana",
-
-  url =     "http://aclweb.org/anthology/S18-1000",
-
-  keywords = "proceedings",
-
-}
-
-@InProceedings{laparra-etal:2018:SemEval,
-
-  author =             "Laparra, Egoitz
-
-                                and Xu, Dongfang
-
-                                and Elsayed, Ahmed
-
-                                and Bethard, Steven
-
-                                and Palmer, Martha",
-
-  title = "SemEval 2018 Task 6: Parsing Time Normalizations",
-
-  booktitle =        "Proceedings of The 12th International Workshop on Semantic Evaluation",
-
-  year = "2018",
-
-  month = "6",
-
-  publisher =       "Association for Computational Linguistics",
-
-  pages =               "88-96",
-
-  location =          "New Orleans, Louisiana",
-
-  url =     "http://aclweb.org/anthology/S18-1011",
-
-  keywords = "timelines, shared task paper",
-
-}
-
-@InProceedings{yadav-sharp-bethard:2018:SEM,
-
-  author =             "Yadav, Vikas
-
-                                and Sharp, Rebecca
-
-                                and Bethard, Steven",
-
-  title = "Deep Affix Features Improve Neural Named Entity Recognizers",
-
-  booktitle =        "Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics",
-
-  year = "2018",
-
-  month = "6",
-
-  publisher =       "Association for Computational Linguistics",
-
-  pages =               "167-172",
-
-  location =          "New Orleans, Louisiana",
-
-  url =     "http://aclweb.org/anthology/S18-2021",
-
-  keywords = "information extraction",
-
-}
 @inproceedings{lrec2018,
   title={Lightly-supervised Representation Learning with Global Interpretability},
   author={Valenzuela-Escarcega, Marco A  and Nagesh, Ajay and Surdeanu, Mihai},
@@ -1162,17 +607,6 @@ keywords = {information retrieval, recommender systems, machine learning},
   isbn = {979-10-95546-00-9},
   language = {english},
   url = {http://www.lrec-conf.org/proceedings/lrec2018/pdf/977.pdf}
-}
-@InProceedings{C18-1182,
-  author = 	"Yadav, Vikas
-		and Bethard, Steven",
-  title = 	"A Survey on Recent Advances in Named Entity Recognition from Deep Learning models",
-  booktitle = 	"Proceedings of the 27th International Conference on Computational Linguistics",
-  year = 	"2018",
-  publisher = 	"Association for Computational Linguistics",
-  pages = 	"2145-2158",
-  location = 	"Santa Fe, New Mexico, USA",
-  url = 	"http://aclweb.org/anthology/C18-1182"
 }
 @InProceedings{bell2018detecting,
   title	    = {Detecting diabetes risk from social media activity},
@@ -1266,111 +700,6 @@ url={http://clulab.org/papers/meanteacherre19.pdf}
         year = {2018},
         title = {Machine Reading for Scientific Discovery},
         url = {https://repository.arizona.edu/handle/10150/630562}
-}
-@Book{W19-19:2019,
-  editor    = {Anna Rumshisky  and  Kirk Roberts  and  Steven Bethard  and  Tristan Naumann},
-  title     = {Proceedings of the 2nd Clinical Natural Language Processing Workshop},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota, USA},
-  publisher = {Association for Computational Linguistics},
-  url       = {http://www.aclweb.org/anthology/W19-19},
-  keywords = {health applications, proceedings},
-}
-@InProceedings{bethard-EtAl:2019:W19-25,
-  author    = {Bethard, Steven  and  Laparra, Egoitz  and  Wang, Sophia  and  Zhao, Yiyun  and  Al-Ghezi, Ragheb  and  Lien, Aaron  and  Lopez-Hoffman, Laura},
-  title     = {Inferring missing metadata from environmental policy texts},
-  booktitle = {Proceedings of the 3rd Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {46-51},
-  url       = {http://www.aclweb.org/anthology/W19-2506},
-  keywords = {workshop paper, environmental policy},
-}
-@InProceedings{lin-EtAl:2019:W19-19,
-  author    = {Lin, Chen  and  Miller, Timothy  and  Dligach, Dmitriy  and  Bethard, Steven  and  Savova, Guergana},
-  title     = {A BERT-based Universal Model for Both Within- and Cross-sentence Clinical Temporal Relation Extraction},
-  booktitle = {Proceedings of the 2nd Clinical Natural Language Processing Workshop},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {65-71},
-  url       = {http://www.aclweb.org/anthology/W19-1908},
-  keywords = {workshop paper, health applications, timelines, information extraction},
-}
-@InProceedings{yadav-EtAl:2019:S19-2,
-  author    = {Yadav, Vikas  and  Laparra, Egoitz  and  Wang, Ti-Tai  and  Surdeanu, Mihai  and  Bethard, Steven},
-  title     = {University of Arizona at SemEval-2019 Task 12: Deep-Affix Named Entity Recognition of Geolocation Entities},
-  booktitle = {Proceedings of the 13th International Workshop on Semantic Evaluation},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {1319-1323},
-  url       = {http://www.aclweb.org/anthology/S19-2232},
-  keywords = {shared task paper, locations, information extraction},
-}
-@InProceedings{sadeque-EtAl:2019:S19-1,
-  author    = {Sadeque, Farig  and  Rains, Stephen  and  Shmargad, Yotam  and  Kenski, Kate  and  Coe, Kevin  and  Bethard, Steven},
-  title     = {Incivility Detection in Online Comments},
-  booktitle = {Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019)},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota},
-  publisher = {Association for Computational Linguistics},
-  pages     = {283-291},
-  url       = {http://www.aclweb.org/anthology/S19-1031},
-  keywords = {social media},
-}
-@InProceedings{xu-laparra-bethard:2019:S19-1,
-  author    = {Xu, Dongfang  and  Laparra, Egoitz  and  Bethard, Steven},
-  title     = {Pre-trained Contextualized Character Embeddings Lead to Major Improvements in Time Normalization: a Detailed Analysis},
-  booktitle = {Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019)},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota},
-  publisher = {Association for Computational Linguistics},
-  pages     = {68-74},
-  url       = {http://www.aclweb.org/anthology/S19-1008},
-  keywords = {timelines, information extraction},
-}
-@InProceedings{sharp-EtAl:2019:N19-4,
-  author    = {Sharp, Rebecca  and  Pyarelal, Adarsh  and  Gyori, Benjamin  and  Alcock, Keith  and  Laparra, Egoitz  and  Valenzuela-Escarcega, Marco A.  and  Nagesh, Ajay  and  Yadav, Vikas  and  Bachman, John  and  Tang, Zheng  and  Lent, Heather  and  Luo, Fan  and  Paul, Mithun  and  Bethard, Steven  and  Barnard, Kobus  and  Morrison, Clayton  and  Surdeanu, Mihai},
-  title     = {Eidos, INDRA, \& Delphi: From Free Text to Executable Causal Models},
-  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (Demonstrations)},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota},
-  publisher = {Association for Computational Linguistics},
-  pages     = {42-47},
-  url       = {http://www.aclweb.org/anthology/N19-4008},
-  keywords = {demo paper, causal relations, timelines, locations, information extraction},
-}
-@InProceedings{yadav-bethard-surdeanu:2019:N19-1,
-  author    = {Yadav, Vikas  and  Bethard, Steven  and  Surdeanu, Mihai},
-  title     = {Alignment over Heterogeneous Embeddings for Question Answering},
-  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
-  month     = {6},
-  year      = {2019},
-  address   = {Minneapolis, Minnesota},
-  publisher = {Association for Computational Linguistics},
-  pages     = {2681-2691},
-  url       = {http://www.aclweb.org/anthology/N19-1274},
-  keywords = {question answering},
-}
-@inproceedings{QAjustifications_yadav,
-    title = "Quick and (not so) Dirty: Unsupervised Selection of Justification Sentences for Multi-hop Question Answering",
-    author = "Vikas Yadav and Steven Bethard and Mihai Surdeanu",
-    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing, (Long Papers)",
-    month = "November",
-    year = "2019",
-    address = "Hong Kong",
-    publisher = "Association for Computational Linguistics",
-    url="http://clulab.org/papers/emnlp2019-rocc.pdf",
-    url_Poster = "http://clulab.org/papers/emnlp2019-rocc-poster.pdf"
 }
 @InProceedings{van2019language,
   title	    = {What does the language of foods say about us?},
@@ -1494,18 +823,17 @@ url={http://clulab.org/papers/meanteacherre19.pdf}
     author = {Tang, Zheng and Surdeanu, Mihai},
     title = "{It Takes Two Flints to Make a Fire: Multitask Learning of Neural Relation and Explanation Classifiers}",
     journal = {Computational Linguistics},
-    pages = {1-40},
-    year = {2022},
-    month = {09},
-    abstract = "{We propose an explainable approach for relation extraction that mitigates the tension between generalization and explainability by jointly training for the two goals. Our approach uses a multi-task learning architecture, which jointly trains a classifier for relation extraction, and a sequence model that labels words in the context of the relation that explain the decisions of the relation classifier. We also convert the model outputs to rules to bring global explanations to this approach. This sequence model is trained using a hybrid strategy: supervised, when supervision from pre-existing patterns is available, and semi-supervised otherwise. In the latter situation, we treat the sequence model’s labels as latent variables, and learn the best assignment that maximizes the performance of the relation classifier. We evaluate the proposed approach on the two datasets and show that the sequence model provides labels that serve as accurate explanations for the relation classifier’s decisions, and, importantly, that the joint training generally improves the performance of the relation classifier. We also evaluate the performance of the generated rules and show that the new rules are great add-on to the manual rules and bring the rule-based system much closer to the neural models.}",
+    volume = {49},
+    number = {1},
+    pages = {117-156},
+    year = {2023},
+    month = {03},
+    abstract = "{We propose an explainable approach for relation extraction that mitigates the tension between generalization and explainability by jointly training for the two goals. Our approach uses a multi-task learning architecture, which jointly trains a classifier for relation extraction, and a sequence model that labels words in the context of the relations that explain the decisions of the relation classifier. We also convert the model outputs to rules to bring global explanations to this approach. This sequence model is trained using a hybrid strategy: supervised, when supervision from pre-existing patterns is available, and semi-supervised otherwise. In the latter situation, we treat the sequence model’s labels as latent variables, and learn the best assignment that maximizes the performance of the relation classifier. We evaluate the proposed approach on the two datasets and show that the sequence model provides labels that serve as accurate explanations for the relation classifier’s decisions, and, importantly, that the joint training generally improves the performance of the relation classifier. We also evaluate the performance of the generated rules and show that the new rules are a great add-on to the manual rules and bring the rule-based system much closer to the neural models.}",
     issn = {0891-2017},
     doi = {10.1162/coli_a_00463},
     url = {https://doi.org/10.1162/coli\_a\_00463},
-    url_Slides = {https://clulab.org/papers/twoflints-slides.pptx},
-    url_Videos = {vhttps://clulab.org/papers/twoflints-ideo.mp4}
-    eprint = {https://direct.mit.edu/coli/article-pdf/doi/10.1162/coli\_a\_00463/2046371/coli\_a\_00463.pdf},
+    eprint = {https://direct.mit.edu/coli/article-pdf/49/1/117/2068962/coli\_a\_00463.pdf},
 }
-
 @inproceedings{bastan2022-sume,
   title={SuMe: A Dataset Towards Summarizing Biomedical Mechanisms},
   author={Bastan, Mohaddeseh and Shankar, Nishant and Surdeanu, Mihai and Balasubramanian, Niranjan},
@@ -1546,14 +874,6 @@ for multi-hop QA, we show that our method yields: (a) improved evidence retrieva
 the retrieved sentences; and (c) effective and faithful explanations when answers are provided.},
   organization={European Language Resource Association (ELRA)},
   url={http://clulab.org/papers/bridgephrases.pdf}
-}
-
-@inproceedings{hungerford2022,
-  title={Taxonomy Builder: a Data-driven and User-centric Tool for Streamlining Taxonomy Construction},
-  author={John Hungerford and Yee Seng Chan and Jessica MacBride and Benjamin M. Gyori and Andrew Zupon and Zheng Tang and Egoitz Laparra and Haoling Qiu and Bonan Min and Yan Zverev and Caitlin Hilverman and Max Thomas and Walt Andrews and Keith Alcock and Zeyu Zhang and Michael Reynolds and Mihai Surdeanu and Steve Bethard and Rebecca Sharp},
-  booktitle = {Proceedings of the Second Workshop on Bridging Human-Computer Interaction and Natural Language Processing},
-  year={2022},
-  url={http://clulab.org/papers/hcinlp2022-oiad.pdf}
 }
 
 @inproceedings{alexeeva-etal-2022-combining,
@@ -1621,6 +941,232 @@ the retrieved sentences; and (c) effective and faithful explanations when answer
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
     year = "2022",
     url = "http://clulab.org/papers/kwak2022.pdf",
+}
+@inproceedings{acl2023-bootstrapping-zheng,
+    title = "Bootstrapping Neural Relation and Explanation Classifiers",
+    author = "Zheng Tang  and
+      Surdeanu, Mihai",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)",
+    month = jul,
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.5.pdf",
+}
+@inproceedings{alexeeva-etal-2020-mathalign,
+    title = "{M}ath{A}lign: Linking Formula Identifiers to their Contextual Natural Language Descriptions",
+    author = "Alexeeva, Maria  and
+      Sharp, Rebecca  and
+      Valenzuela-Esc{\'a}rcega, Marco A.  and
+      Kadowaki, Jennifer  and
+      Pyarelal, Adarsh  and
+      Morrison, Clayton",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.269",
+    pages = "2204--2212",
+    abstract = "Extending machine reading approaches to extract mathematical concepts and their descriptions is useful for a variety of tasks, ranging from mathematical information retrieval to increasing accessibility of scientific documents for the visually impaired. This entails segmenting mathematical formulae into identifiers and linking them to their natural language descriptions. We propose a rule-based approach for this task, which extracts LaTeX representations of formula identifiers and links them to their in-text descriptions, given only the original PDF and the location of the formula of interest. We also present a novel evaluation dataset for this task, as well as the tool used to create it.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+@inproceedings{
+    alexeeva-et-al-2023-annotating,
+    title={Annotating and Training for Population Subjective Views},
+    author={Alexeeva, Maria and Hyland, Caroline and Alcock, Keith and Beal Cohen,  Allegra A. and Kanyamahanga, Hubert and Anni, Isaac Kobby and Surdeanu, Mihai},
+    booktitle={13th Workshop on Computational Approaches to Subjectivity, Sentiment {\&} Social Media Analysis},
+    year={2023},
+    url={http://clulab.org/papers/wassa2023-beliefs.pdf}
+}
+@Misc{alexeeva-et-al-2023-extracting-crop,
+    author = {Alexeeva, Maria and Joshi, Vijaya R and Kanyamahanga, Hubert and Anni, Isaac Kobby and Alcock, Keith and Hoogenboom, Gerrit and Surdeanu, Mihai},
+    title = {Extracting Crop Model Parameters from Literature Using Natural Language Processing},
+    howpublished= {Presented at AI in Agriculture: Innovation and Discovery to Equitably Meet Producer Needs and Perceptions Conference, Orlando, Florida},
+    url_Poster = {http://clulab.org/papers/ai-in-agro-poster.pdf},
+    url_Abstract = {http://clulab.org/papers/ai-in-agriculture2023-submitted-abstract.pdf}
+    year = {2023}
+}
+@proceedings{clinicalnlp-2023-clinical,
+    title = "Proceedings of the 5th Clinical Natural Language Processing Workshop",
+    editor = "Naumann, Tristan  and
+      Ben Abacha, Asma  and
+      Bethard, Steven  and
+      Roberts, Kirk  and
+      Rumshisky, Anna",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.clinicalnlp-1.0",
+    keywords = {health applications},
+}
+@inproceedings{gonzalez-lopez-bethard-2023-transformer,
+    title = "Transformer-based cynical expression detection in a corpus of {S}panish {Y}ou{T}ube reviews",
+    author = "Gonzalez-Lopez, Samuel  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment, {\&} Social Media Analysis",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wassa-1.18",
+    pages = "194--201",
+    keywords = {workshop paper, social media, sentiment},
+}
+@inproceedings{zhang-bethard-2023-improving,
+    title = "Improving Toponym Resolution with Better Candidate Generation, Transformer-based Reranking, and Two-Stage Resolution",
+    author = "Zhang, Zeyu  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the The 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.starsem-1.6",
+    pages = "48--60",
+    keywords = {locations, information extraction},
+    note = {[Acceptance rate 47\%]},
+}
+@inproceedings{bozdag-etal-2023-arizonans,
+    title = "Arizonans at {S}em{E}val-2023 Task 9: Multilingual Tweet Intimacy Analysis with {XLM}-{T}",
+    author = "Bozdag, Nimet Beyza  and
+      Bilgis, Tugay  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.semeval-1.230",
+    pages = "1656--1659",
+    keywords = {shared task paper, social media},
+}
+@inproceedings{bilgis-etal-2023-gallagher,
+    title = "Gallagher at {S}em{E}val-2023 Task 5: Tackling Clickbait with {S}eq2{S}eq Models",
+    author = "Bilgis, Tugay  and
+      Bozdag, Nimet Beyza  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.semeval-1.229",
+    pages = "1650--1655",
+    keywords = {shared task paper, social media},
+}
+@inproceedings{yao-etal-2023-textual,
+    title = "Textual Entailment for Temporal Dependency Graph Parsing",
+    author = "Yao, Jiarui  and
+      Bethard, Steven  and
+      Wright-Bettner, Kristin  and
+      Goldner, Eli  and
+      Harris, David  and
+      Savova, Guergana",
+    booktitle = "Proceedings of the 5th Clinical Natural Language Processing Workshop",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.clinicalnlp-1.25",
+    pages = "191--199",
+    keywords = {workshop paper, timelines, information extraction, health applications},
+}
+@inproceedings{ozler-bethard-2023-clulab,
+    title = "clulab at {MEDIQA}-Chat 2023: Summarization and classification of medical dialogues",
+    author = "Ozler, Kadir Bulut  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 5th Clinical Natural Language Processing Workshop",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.clinicalnlp-1.19",
+    pages = "144--149",
+    keywords = {shared task paper, health applications},
+}
+@inproceedings{miller-etal-2023-end,
+    title = "End-to-end clinical temporal information extraction with multi-head attention",
+    author = "Miller, Timothy  and
+      Bethard, Steven  and
+      Dligach, Dmitriy  and
+      Savova, Guergana",
+    booktitle = "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.bionlp-1.28",
+    pages = "313--319",
+    keywords = {workshop paper, timelines, information extraction, health applications},
+}
+@inproceedings{wang-etal-2023-two,
+    title = "Two-Stage Fine-Tuning for Improved Bias and Variance for Large Pretrained Language Models",
+    author = "Wang, Lijing  and
+      Li, Yingya  and
+      Miller, Timothy  and
+      Bethard, Steven  and
+      Savova, Guergana",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.877",
+    pages = "15746--15761",
+    keywords = {machine learning},
+    note = {[Acceptance rate 23\%]},
+}
+@article{https://doi.org/10.1002/asi.24809,
+author = {Laparra, Egoitz and Binford-Walsh, Alex and Emerson, Kirk and Miller, Marc L. and López-Hoffman, Laura and Currim, Faiz and Bethard, Steven},
+title = {Addressing structural hurdles for metadata extraction from environmental impact statements},
+journal = {Journal of the Association for Information Science and Technology},
+volume = {n/a},
+number = {n/a},
+pages = {},
+month = jun,
+year = {2023},
+doi = {https://doi.org/10.1002/asi.24809},
+url = {https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.24809},
+keywords = {environmental policy},
+}
+@article{doi:10.1080/27671127.2023.2195467,
+author = {Stephen A. Rains and Kate Kenski and Leah Dajches and Kaylin Duncan and Kun Yan and Yejin Shin and Jules L. Barbati and Steven Bethard and Kevin Coe and Yotam Shmargad},
+title = {Engagement with incivility in tweets from and directed at local elected officials},
+journal = {Communication and Democracy},
+volume = {57},
+number = {1},
+pages = {143-152},
+year  = {2023},
+publisher = {Routledge},
+doi = {10.1080/27671127.2023.2195467},
+URL = {https://doi.org/10.1080/27671127.2023.2195467},
+keywords = {social media},
+}
+@misc{https://doi.org/10.48550/arxiv.2210.13393,
+  doi = {10.48550/ARXIV.2210.13393},
+  url = {https://arxiv.org/abs/2210.13393},
+  author = {Bethard, Steven},
+  keywords = {machine learning},
+  title = {We need to talk about random seeds},
+  organization = {arXiv},
+  year = {2022},
+  month = oct,
+}
+@article{10.1093/joc/jqac037,
+    author = {Rains, Stephen A and Harwood, Jake and Shmargad, Yotam and Kenski, Kate and Coe, Kevin and Bethard, Steven},
+    title = {Engagement with partisan Russian troll tweets during the 2016 U.S. presidential election: a social identity perspective},
+    journal = {Journal of Communication},
+    volume = {73},
+    number = {1},
+    pages = {38-48},
+    year = {2022},
+    month = {12},
+    issn = {0021-9916},
+    doi = {10.1093/joc/jqac037},
+    url = {https://doi.org/10.1093/joc/jqac037},
+    keywords = {social media},
 }
 @article{EMERSON2022106879,
 title = {Toward NEPA performance: A framework for assessing EIAs},
@@ -1724,6 +1270,37 @@ keywords = {environmental policy},
     doi = "10.18653/v1/2022.semeval-1.222",
     pages = "1608--1612",
     keywords = {shared task paper, information extraction},
+}
+@inproceedings{surdeanu-etal-2022-taxonomy,
+    title = "Taxonomy Builder: a Data-driven and User-centric Tool for Streamlining Taxonomy Construction",
+    author = "Surdeanu, Mihai  and
+      Hungerford, John  and
+      Chan, Yee Seng  and
+      MacBride, Jessica  and
+      Gyori, Benjamin  and
+      Zupon, Andrew  and
+      Tang, Zheng  and
+      Qiu, Haoling  and
+      Min, Bonan  and
+      Zverev, Yan  and
+      Hilverman, Caitlin  and
+      Thomas, Max  and
+      Andrews, Walter  and
+      Alcock, Keith  and
+      Zhang, Zeyu  and
+      Reynolds, Michael  and
+      Bethard, Steven  and
+      Sharp, Rebecca  and
+      Laparra, Egoitz",
+    booktitle = "Proceedings of the Second Workshop on Bridging Human--Computer Interaction and Natural Language Processing",
+    month = jul,
+    year = "2022",
+    address = "Seattle, Washington",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.hcinlp-1.1",
+    doi = "10.18653/v1/2022.hcinlp-1.1",
+    pages = "1--10",
+    keywords = {demo paper},
 }
 @inproceedings{su-etal-2022-comparison,
     title = "A Comparison of Strategies for Source-Free Domain Adaptation",
@@ -1829,48 +1406,808 @@ keywords = {environmental policy},
     pages = "458--466",
     keywords = {domain adaptation, negation, timelines, information extraction, health applications, shared task paper},
 }
-@inproceedings{acl2023-bootstrapping-zheng,
-    title = "Bootstrapping Neural Relation and Explanation Classifiers",
-    author = "Zheng Tang  and
-      Surdeanu, Mihai",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)",
-    month = jul,
-    year = "2023",
+@inproceedings{xu-bethard-2021-triplet,
+    title = "Triplet-Trained Vector Space and Sieve-Based Search Improve Biomedical Concept Normalization",
+    author = "Xu, Dongfang  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 20th Workshop on Biomedical Language Processing",
+    month = jun,
+    year = "2021",
+    address = "Online",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-short.5.pdf",
+    url = "https://www.aclweb.org/anthology/2021.bionlp-1.2",
+    pages = "11--22",
+    keywords = {term normalization, workshop paper},
 }
-@inproceedings{alexeeva-etal-2020-mathalign,
-    title = "{M}ath{A}lign: Linking Formula Identifiers to their Contextual Natural Language Descriptions",
-    author = "Alexeeva, Maria  and
-      Sharp, Rebecca  and
-      Valenzuela-Esc{\'a}rcega, Marco A.  and
-      Kadowaki, Jennifer  and
-      Pyarelal, Adarsh  and
-      Morrison, Clayton",
-    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
-    month = may,
+@inproceedings{lin-etal-2021-entitybert,
+    title = "{E}ntity{BERT}: Entity-centric Masking Strategy for Model Pretraining for the Clinical Domain",
+    author = "Lin, Chen  and
+      Miller, Timothy  and
+      Dligach, Dmitriy  and
+      Bethard, Steven  and
+      Savova, Guergana",
+    booktitle = "Proceedings of the 20th Workshop on Biomedical Language Processing",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.bionlp-1.21",
+    pages = "191--201",
+    keywords = {timelines, information extraction, health applications, workshop paper},
+}
+@inproceedings{liang-etal-2021-explainable,
+    title = "Explainable Multi-hop Verbal Reasoning Through Internal Monologue",
+    author = "Liang, Zhengzhong  and
+      Bethard, Steven  and
+      Surdeanu, Mihai",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.97",
+    pages = "1225--1250",
+    note = {[Acceptance rate 26\%]},
+    keywords = {question answering},
+}
+@inproceedings{yadav-etal-2021-want,
+    title = "If You Want to Go Far Go Together: Unsupervised Joint Candidate Evidence Retrieval for Multi-hop Question Answering",
+    author = "Yadav, Vikas  and
+      Bethard, Steven  and
+      Surdeanu, Mihai",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.363",
+    pages = "4571--4581",
+    note = {[Acceptance rate 26\%]},
+    keywords = {question answering},
+}
+@proceedings{naacl-2021-2021,
+    title = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    editor = "Toutanova, Kristina  and
+      Rumshisky, Anna  and
+      Zettlemoyer, Luke  and
+      Hakkani-Tur, Dilek  and
+      Beltagy, Iz  and
+      Bethard, Steven  and
+      Cotterell, Ryan  and
+      Chakraborty, Tanmoy  and
+      Zhou, Yichao",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.0",
+}
+@inproceedings{miller-etal-2021-domain,
+    title = "Domain adaptation in practice: Lessons from a real-world information extraction pipeline",
+    author = "Miller, Timothy  and
+      Laparra, Egoitz  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the Second Workshop on Domain Adaptation for NLP",
+    month = apr,
+    year = "2021",
+    address = "Kyiv, Ukraine",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.adaptnlp-1.11",
+    pages = "105--110",
+    keywords = {domain adaptation, information extraction, workshop paper},
+}
+@article{gonzalez-lopez-2021-PLN,
+	author = {Samuel Gonz\'{a}lez-L\'{o}pez and Steven Bethard and Francisca Cecilia Encinas Orozco and Adri\i{a}n Pastor L\'{o}pez-Monroy},
+	title = {Consumer Cynicism Identification for Spanish Reviews using a Spanish Transformer Model},
+	journal = {Procesamiento del Lenguaje Natural},
+	volume = {66},
+	number = {0},
+	year = {2021},
+	issn = {1989-7553},
+	url = {http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6327},
+	pages = {111--120},
+	keywords = {social media},
+}
+@inproceedings{kim-bethard-2020-ttui,
+    title = "{TTUI} at {S}em{E}val-2020 Task 11: Propaganda Detection with Transfer Learning and Ensembles",
+    author = "Kim, Moonsung  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the Fourteenth Workshop on Semantic Evaluation",
+    month = dec,
     year = "2020",
-    address = "Marseille, France",
-    publisher = "European Language Resources Association",
-    url = "https://aclanthology.org/2020.lrec-1.269",
-    pages = "2204--2212",
-    abstract = "Extending machine reading approaches to extract mathematical concepts and their descriptions is useful for a variety of tasks, ranging from mathematical information retrieval to increasing accessibility of scientific documents for the visually impaired. This entails segmenting mathematical formulae into identifiers and linking them to their natural language descriptions. We propose a rule-based approach for this task, which extracts LaTeX representations of formula identifiers and links them to their in-text descriptions, given only the original PDF and the location of the formula of interest. We also present a novel evaluation dataset for this task, as well as the tool used to create it.",
-    language = "English",
-    ISBN = "979-10-95546-34-4",
+    address = "Barcelona (online)",
+    publisher = "International Committee for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.semeval-1.240",
+    pages = "1829--1834",
+    keywords = {shared task paper, social media},
 }
-@inproceedings{
-    alexeeva-et-al-2023-annotating,
-    title={Annotating and Training for Population Subjective Views},
-    author={Alexeeva, Maria and Hyland, Caroline and Alcock, Keith and Beal Cohen,  Allegra A. and Kanyamahanga, Hubert and Anni, Isaac Kobby and Surdeanu, Mihai},
-    booktitle={13th Workshop on Computational Approaches to Subjectivity, Sentiment {\&} Social Media Analysis},
-    year={2023},
-    url={http://clulab.org/papers/wassa2023-beliefs.pdf}
+@inproceedings{laparra-bethard-2020-dataset,
+    title = "A Dataset and Evaluation Framework for Complex Geographical Description Parsing",
+    author = "Laparra, Egoitz  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.coling-main.81",
+    pages = "936--948",
+    keywords = {locations, information extraction},
+    note = {[Acceptance rate 35\%]},
 }
-@Misc{alexeeva-et-al-2023-extracting-crop,
-    author = {Alexeeva, Maria and Joshi, Vijaya R and Kanyamahanga, Hubert and Anni, Isaac Kobby and Alcock, Keith and Hoogenboom, Gerrit and Surdeanu, Mihai},
-    title = {Extracting Crop Model Parameters from Literature Using Natural Language Processing},
-    howpublished= {Presented at AI in Agriculture: Innovation and Discovery to Equitably Meet Producer Needs and Perceptions Conference, Orlando, Florida},
-    url_Poster = {http://clulab.org/papers/ai-in-agro-poster.pdf},
-    url_Abstract = {http://clulab.org/papers/ai-in-agriculture2023-submitted-abstract.pdf}
-    year = {2023}
+@proceedings{clinicalnlp-2020-clinical,
+    title = "Proceedings of the 3rd Clinical Natural Language Processing Workshop",
+    editor = "Rumshisky, Anna  and
+      Roberts, Kirk  and
+      Bethard, Steven  and
+      Naumann, Tristan",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.clinicalnlp-1.0",
+    keywords = {health applications},
+}
+@inproceedings{wright-bettner-etal-2020-defining,
+    title = "Defining and Learning Refined Temporal Relations in the Clinical Narrative",
+    author = "Wright-Bettner, Kristin  and
+      Lin, Chen  and
+      Miller, Timothy  and
+      Bethard, Steven  and
+      Dligach, Dmitriy  and
+      Palmer, Martha  and
+      Martin, James H.  and
+      Savova, Guergana",
+    booktitle = "Proceedings of the 11th International Workshop on Health Text Mining and Information Analysis",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.louhi-1.12",
+    doi = "10.18653/v1/2020.louhi-1.12",
+    pages = "104--114",
+    keywords = {annotation, timelines, information extraction, workshop paper},
+}
+@inproceedings{ozler-etal-2020-fine,
+    title = "Fine-tuning for multi-domain and multi-label uncivil language detection",
+    author = "Ozler, Kadir Bulut  and
+      Kenski, Kate  and
+      Rains, Steve  and
+      Shmargad, Yotam  and
+      Coe, Kevin  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the Fourth Workshop on Online Abuse and Harms",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.alw-1.4",
+    doi = "10.18653/v1/2020.alw-1.4",
+    pages = "28--33",
+    keywords = {social media, workshop paper},
+}
+@inproceedings{10.1145/3397271.3401311,
+author = {Yadav, Vikas and Bethard, Steven and Surdeanu, Mihai},
+title = {Having Your Cake and Eating It Too: Training Neural Retrieval for Language Inference without Losing Lexical Match},
+year = {2020},
+month = {7},
+isbn = {9781450380164},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3397271.3401311},
+doi = {10.1145/3397271.3401311},
+booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {1625--1628},
+numpages = {4},
+location = {Virtual Event, China},
+series = {SIGIR '20},
+keywords = {question answering},
+note = {[Acceptance rate 26\%]},
+}
+@article{xu-etal-2020-unified,
+    author = {Xu, Dongfang and Gopale, Manoj and Zhang, Jiacheng and Brown, Kris and Begoli, Edmon and Bethard, Steven},
+    title = {Unified Medical Language System resources improve sieve-based generation and Bidirectional Encoder Representations from Transformers (BERT)-based ranking for concept normalization},
+    journal = {Journal of the American Medical Informatics Association},
+    year = {2020},
+    month = {07},
+    issn = {1527-974X},
+    doi = {10.1093/jamia/ocaa080},
+    url = {https://doi.org/10.1093/jamia/ocaa080},
+    keywords = {health applications, term normalization},
+}
+@inproceedings{lin-etal-2020-bert,
+    title = "A {BERT}-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction",
+    author = "Lin, Chen  and
+      Miller, Timothy  and
+      Dligach, Dmitriy  and
+      Sadeque, Farig  and
+      Bethard, Steven  and
+      Savova, Guergana",
+    booktitle = "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.bionlp-1.7",
+    pages = "70--75",
+    keywords = {workshop paper, health applications, timelines, information extraction},
+}
+@inproceedings{gonzalez-lopez-etal-2020-assisting,
+    title = "Assisting Undergraduate Students in Writing {S}panish Methodology Sections",
+    author = "Gonz{\'a}lez-L{\'o}pez, Samuel  and
+      Bethard, Steven  and
+      Lopez-Lopez, Aurelio",
+    booktitle = "Proceedings of the Fifteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+    month = jul,
+    year = "2020",
+    address = "Seattle, WA, USA - Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.bea-1.11",
+    pages = "115--123",
+    keywords = {educational applications, workshop paper},
+}
+@inproceedings{xu-etal-2020-generate,
+    title = "A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization",
+    author = "Xu, Dongfang  and
+      Zhang, Zeyu  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.748",
+    pages = "8452--8464",
+    note = {[Acceptance rate 23\%]},
+    keywords = {health applications, term normalization},
+}
+@inproceedings{zhao-bethard-2020-berts,
+    title = "How does {BERT}{'}s attention change when you fine-tune? An analysis methodology and a case study in negation scope",
+    author = "Zhao, Yiyun  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.429",
+    pages = "4729--4747",
+    note = {[Acceptance rate 23\%]},
+    keywords = {negation, machine learning},
+}
+@inproceedings{yadav-etal-2020-unsupervised,
+    title = "Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering",
+    author = "Yadav, Vikas  and
+      Bethard, Steven  and
+      Surdeanu, Mihai",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.414",
+    pages = "4514--4525",
+    note = {[Acceptance rate 23\%]},
+    keywords = {question answering},
+}
+@article{laparra-bethard-miller:2020:JAMIAOpen,
+    author = {Laparra, Egoitz and Bethard, Steven and Miller, Timothy A},
+    title = "{Rethinking domain adaptation for machine learning over clinical language}",
+    journal = {JAMIA Open},
+    year = {2020},
+    month = {04},
+    issn = {2574-2531},
+    doi = {10.1093/jamiaopen/ooaa010},
+    url = {https://doi.org/10.1093/jamiaopen/ooaa010},
+    keywords = {domain adaptation, health applications},
+}
+@article{chen-etal:2020:JAMIA,
+    author = {Lin, Chen and Bethard, Steven and Dligach, Dmitriy and Sadeque, Farig and Savova, Guergana and Miller, Timothy A},
+    title = "{Does BERT need domain adaptation for clinical negation detection?}",
+    journal = {Journal of the American Medical Informatics Association},
+    volume = {27},
+    number = {4},
+    pages = {584-591},
+    year = {2020},
+    month = {02},
+    issn = {1527-974X},
+    doi = {10.1093/jamia/ocaa001},
+    url = {https://doi.org/10.1093/jamia/ocaa001},
+    keywords = {negation, health applications},
+}
+@inproceedings{yadav-etal-2019-quick,
+    title = "Quick and (not so) Dirty: Unsupervised Selection of Justification Sentences for Multi-hop Question Answering",
+    author = "Yadav, Vikas  and
+      Bethard, Steven  and
+      Surdeanu, Mihai",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D19-1260",
+    doi = "10.18653/v1/D19-1260",
+    pages = "2578--2589",
+    note = {[Acceptance rate 23\%]},
+    keywords = {question answering},
+}
+@proceedings{W19-19:2019,
+  editor    = {Anna Rumshisky  and  Kirk Roberts  and  Steven Bethard  and  Tristan Naumann},
+  title     = {Proceedings of the 2nd Clinical Natural Language Processing Workshop},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota, USA},
+  publisher = {Association for Computational Linguistics},
+  url       = {http://www.aclweb.org/anthology/W19-19},
+  keywords = {health applications},
+}
+@InProceedings{bethard-EtAl:2019:W19-25,
+  author    = {Bethard, Steven  and  Laparra, Egoitz  and  Wang, Sophia  and  Zhao, Yiyun  and  Al-Ghezi, Ragheb  and  Lien, Aaron  and  L\'{o}pez-Hoffman, Laura},
+  title     = {Inferring missing metadata from environmental policy texts},
+  booktitle = {Proceedings of the 3rd Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {46--51},
+  url       = {http://www.aclweb.org/anthology/W19-2506},
+  keywords = {workshop paper, environmental policy},
+}
+@InProceedings{lin-EtAl:2019:W19-19,
+  author    = {Lin, Chen  and  Miller, Timothy  and  Dligach, Dmitriy  and  Bethard, Steven  and  Savova, Guergana},
+  title     = {A BERT-based Universal Model for Both Within- and Cross-sentence Clinical Temporal Relation Extraction},
+  booktitle = {Proceedings of the 2nd Clinical Natural Language Processing Workshop},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {65--71},
+  url       = {http://www.aclweb.org/anthology/W19-1908},
+  keywords = {workshop paper, health applications, timelines, information extraction},
+}
+@InProceedings{yadav-EtAl:2019:S19-2,
+  author    = {Yadav, Vikas  and  Laparra, Egoitz  and  Wang, Ti-Tai  and  Surdeanu, Mihai  and  Bethard, Steven},
+  title     = {University of Arizona at SemEval-2019 Task 12: Deep-Affix Named Entity Recognition of Geolocation Entities},
+  booktitle = {Proceedings of the 13th International Workshop on Semantic Evaluation},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1319--1323},
+  url       = {http://www.aclweb.org/anthology/S19-2232},
+  keywords = {shared task paper, locations, information extraction},
+}
+@InProceedings{sadeque-EtAl:2019:S19-1,
+  author    = {Sadeque, Farig  and  Rains, Stephen  and  Shmargad, Yotam  and  Kenski, Kate  and  Coe, Kevin  and  Bethard, Steven},
+  title     = {Incivility Detection in Online Comments},
+  booktitle = {Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019)},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota},
+  publisher = {Association for Computational Linguistics},
+  pages     = {283--291},
+  url       = {http://www.aclweb.org/anthology/S19-1031},
+  note = {[Acceptance rate 33\%]},
+  keywords = {social media},
+}
+@InProceedings{xu-laparra-bethard:2019:S19-1,
+  author    = {Xu, Dongfang  and  Laparra, Egoitz  and  Bethard, Steven},
+  title     = {Pre-trained Contextualized Character Embeddings Lead to Major Improvements in Time Normalization: a Detailed Analysis},
+  booktitle = {Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019)},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota},
+  publisher = {Association for Computational Linguistics},
+  pages     = {68--74},
+  url       = {http://www.aclweb.org/anthology/S19-1008},
+  note = {[Acceptance rate 33\%]},
+  keywords = {timelines, information extraction},
+}
+@InProceedings{sharp-EtAl:2019:N19-4,
+  author    = {Sharp, Rebecca  and  Pyarelal, Adarsh  and  Gyori, Benjamin  and  Alcock, Keith  and  Laparra, Egoitz  and  Valenzuela-Esc\'{a}rcega, Marco A.  and  Nagesh, Ajay  and  Yadav, Vikas  and  Bachman, John  and  Tang, Zheng  and  Lent, Heather  and  Luo, Fan  and  Paul, Mithun  and  Bethard, Steven  and  Barnard, Kobus  and  Morrison, Clayton  and  Surdeanu, Mihai},
+  title     = {Eidos, INDRA, \& Delphi: From Free Text to Executable Causal Models},
+  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (Demonstrations)},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota},
+  publisher = {Association for Computational Linguistics},
+  pages     = {42--47},
+  url       = {http://www.aclweb.org/anthology/N19-4008},
+  keywords = {demo paper, causal relations, timelines, locations, information extraction},
+}
+@InProceedings{yadav-bethard-surdeanu:2019:N19-1,
+  author    = {Yadav, Vikas  and  Bethard, Steven  and  Surdeanu, Mihai},
+  title     = {Alignment over Heterogeneous Embeddings for Question Answering},
+  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
+  month     = {6},
+  year      = {2019},
+  address   = {Minneapolis, Minnesota},
+  publisher = {Association for Computational Linguistics},
+  pages     = {2681--2691},
+  url       = {http://www.aclweb.org/anthology/N19-1274},
+  note = {[Acceptance rate 26\%]},
+  keywords = {question answering},
+}
+@article{gonzalez-lopez-EtAl:2019:RCS,
+  author    = {Samuel Gonz{\'{a}}lez L{\'{o}}pez and
+               Aurelio L{\'{o}}pez{-}L{\'{o}}pez and
+               Steven Bethard and
+               Jes{\'{u}}s Miguel Garc{\'{i}}a Gorrostieta},
+  title     = {A Model for Identifying Steps in Undergraduate Thesis Methodology},
+  journal   = {Res. Comput. Sci.},
+  volume    = {148},
+  number    = {5},
+  pages     = {17--24},
+  year      = {2019},
+  url       = {http://rcs.cic.ipn.mx/2019\_148\_5/A\%20Model\%20for\%20Identifying\%20Steps\%20in\%20Undergraduate\%20Thesis\%20Methodology.pdf},
+  keywords = {educational applications},
+}
+@InProceedings{lin-EtAl:2018:LOUHI,
+  author    = {Lin, Chen  and  Miller, Timothy  and  Dligach, Dmitriy  and  Amiri, Hadi  and  Bethard, Steven  and  Savova, Guergana},
+  title     = {Self-training improves Recurrent Neural Networks performance for Temporal Relation Extraction},
+  booktitle = {Proceedings of the Ninth International Workshop on Health Text Mining and Information Analysis},
+  month     = {10},
+  year      = {2018},
+  address   = {Brussels, Belgium},
+  publisher = {Association for Computational Linguistics},
+  pages     = {165--176},
+  url       = {http://www.aclweb.org/anthology/W18-5619},
+  keywords = {timelines, information extraction, health applications, workshop paper},
+}
+@InProceedings{yadav-bethard:2018:C18-1,
+  author    = {Yadav, Vikas  and  Bethard, Steven},
+  title     = {A Survey on Recent Advances in Named Entity Recognition from Deep Learning models},
+  booktitle = {Proceedings of the 27th International Conference on Computational Linguistics},
+  month     = {8},
+  year      = {2018},
+  address   = {Santa Fe, New Mexico, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {2145--2158},
+  url       = {http://www.aclweb.org/anthology/C18-1182},
+  note = {[Acceptance rate 37\%]},
+  keywords = {information extraction},
+}
+@proceedings{apidianaki-etal:2018:SemEval,
+  editor    = {Marianna Apidianaki  and  Saif M. Mohammad  and  Jonathan May  and  Ekaterina Shutova  and  Steven Bethard  and  Marine Carpuat},
+  title     = {Proceedings of The 12th International Workshop on Semantic Evaluation (SemEval-2018)},
+  month     = {6},
+  year      = {2018},
+  address   = {New Orleans, Louisiana},
+  publisher = {Association for Computational Linguistics},
+  url       = {http://www.aclweb.org/anthology/S18-1},
+}
+@InProceedings{laparra-etal:2018:SemEval,
+  author    = {Laparra, Egoitz  and  Xu, Dongfang  and  Elsayed, Ahmed  and  Bethard, Steven  and  Palmer, Martha},
+  title     = {SemEval 2018 Task 6: Parsing Time Normalizations},
+  booktitle = {Proceedings of The 12th International Workshop on Semantic Evaluation},
+  month     = {6},
+  year      = {2018},
+  address   = {New Orleans, Louisiana},
+  publisher = {Association for Computational Linguistics},
+  pages     = {88--96},
+  url       = {http://www.aclweb.org/anthology/S18-1011},
+  keywords  = {timelines, information extraction, shared task paper},
+}
+@InProceedings{yadav-sharp-bethard:2018:SEM,
+  author    = {Yadav, Vikas  and  Sharp, Rebecca  and  Bethard, Steven},
+  title     = {Deep Affix Features Improve Neural Named Entity Recognizers},
+  booktitle = {Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics},
+  month     = {6},
+  year      = {2018},
+  address   = {New Orleans, Louisiana},
+  publisher = {Association for Computational Linguistics},
+  pages     = {167--172},
+  url       = {http://www.aclweb.org/anthology/S18-2021},
+  note = {[Acceptance rate 29\%]},
+  keywords  = {information extraction},
+}
+@article{laparra-xu-bethard:2018:TACL,
+        author = {Laparra, Egoitz  and Xu, Dongfang  and Bethard, Steven },
+        title = {From Characters to Time Intervals: New Paradigms for Evaluation and Neural Parsing of Time Normalizations},
+        journal = {Transactions of the Association for Computational Linguistics},
+        volume = {6},
+        year = {2018},
+        month = {5},
+        day = {31},
+        keywords = {timelines, information extraction},
+        issn = {2307-387X},
+        url = {https://transacl.org/ojs/index.php/tacl/article/view/1318},
+        pages = {343--356}
+}
+@InProceedings{xu-yadav-bethard:2018:MADE,
+  title = 	 {UArizona at the MADE1.0 NLP Challenge},
+  author = 	 {Dongfang Xu and Vikas Yadav and Steven Bethard},
+  booktitle = 	 {Proceedings of the 1st International Workshop on Medication and Adverse Drug Event Detection},
+  pages = 	 {57--65},
+  year = 	 {2018},
+  editor = 	 {Feifan Liu and Abhyuday Jagannatha and Hong Yu},
+  volume = 	 {90},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {},
+  month = 	 {5},
+  url = 	 {http://proceedings.mlr.press/v90/xu18a.html},
+  keywords = {semantic relations, information extraction, health applications, shared task paper},
+}
+@INPROCEEDINGS{8397017,
+author={Ligaj Pradhan and Chengcui Zhang and Steven Bethard and Xin Chen},
+booktitle={2018 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)},
+title={Embedding User Behavioral Aspect in TF-IDF Like Representation},
+year={2018},
+volume={},
+number={},
+pages={262-267},
+keywords={information retrieval, recommender systems},
+url={http://doi.org/10.1109/MIPR.2018.00061},
+ISSN={},
+month={4},
+note = {[Acceptance rate 20\%]},
+}
+@inproceedings{sadeque-xu-bethard:2018:WSDM,
+ author = {Sadeque, Farig and Xu, Dongfang and Bethard, Steven},
+ title = {Measuring the Latency of Depression Detection in Social Media},
+ booktitle = {Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining},
+ series = {WSDM '18},
+ year = {2018},
+ month = {2},
+ isbn = {978-1-4503-5581-0},
+ location = {Marina Del Rey, CA, USA},
+ pages = {495--503},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/3159652.3159725},
+ doi = {10.1145/3159652.3159725},
+ acmid = {3159725},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+  note = {[Acceptance rate 16\%]},
+ keywords = {health applications, social media},
+}
+@Article{osborne-etal:2018:JBS,
+author="Osborne, John D.
+and Neu, Matthew B.
+and Danila, Maria I.
+and Solorio, Thamar
+and Bethard, Steven J.",
+title="CUILESS2016: a clinical corpus applying compositional normalization of text mentions",
+journal="Journal of Biomedical Semantics",
+year="2018",
+month="1",
+day="10",
+volume="9",
+number="1",
+pages="2",
+issn="2041-1480",
+doi="10.1186/s13326-017-0173-6",
+url="https://doi.org/10.1186/s13326-017-0173-6",
+keywords = {annotation, term normalization, health applications},
+}
+@InProceedings{do-bethard-moens:2017:I17-1,
+  author    = {Do, Quynh Ngoc Thi  and  Bethard, Steven  and  Moens, Marie-Francine},
+  title     = {Improving Implicit Semantic Role Labeling by Predicting Semantic Frame Arguments},
+  booktitle = {Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  month     = {11},
+  year      = {2017},
+  address   = {Taipei, Taiwan},
+  publisher = {Asian Federation of Natural Language Processing},
+  pages     = {90--99},
+  url       = {http://www.aclweb.org/anthology/I17-1010},
+  note = {[Acceptance rate 31\%]},
+  keywords = {semantic relations},
+}
+@InProceedings{sadeque-xu-bethard:2017:CLEF,
+  author = {Farig Sadeque and Dongfang Xu and Steven Bethard},
+  title = {{UArizona} at the {CLEF eRisk} 2017 Pilot Task: Linear and Recurrent Models for Early Depression Detection},
+  booktitle = {CEUR workshop proceedings: Working Notes of CLEF 2017 - Conference and Labs of the Evaluation Forum},
+  address = {Dublin, Ireland},
+  month = {9},
+  year = {2017},
+  url = {http://ceur-ws.org/Vol-1866/paper_58.pdf},
+  keywords = {health applications, social media, shared task paper},
+}
+@INPROCEEDINGS{pradhan-zhang-bethard:2017:IRI,
+author = {Ligaj Pradhan and Chengcui Zhang and Steven Bethard},
+booktitle = {2017 IEEE International Conference on Information Reuse and Integration (IRI)},
+title = {Infusing Latent User-Concerns from User Reviews into Collaborative Filtering},
+year = {2017},
+volume = {},
+number = {},
+pages = {471-477},
+doi = {10.1109/IRI.2017.24},
+url = {http://doi.ieeecomputersociety.org/10.1109/IRI.2017.24},
+month={8},
+note = {[Acceptance rate 29\%]},
+keywords = {information retrieval, recommender systems},
+}
+@InProceedings{lin-EtAl:2017:BioNLP17,
+  author    = {Lin, Chen  and  Miller, Timothy  and  Dligach, Dmitriy  and  Bethard, Steven  and  Savova, Guergana},
+  title     = {Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks},
+  booktitle = {BioNLP 2017},
+  month     = {8},
+  year      = {2017},
+  address   = {Vancouver, Canada,},
+  publisher = {Association for Computational Linguistics},
+  pages     = {322--327},
+  url       = {http://www.aclweb.org/anthology/W17-2341},
+  keywords = {timelines, information extraction, health applications, workshop paper},
+}
+@InProceedings{miller-EtAl:2017:BioNLP17,
+  author    = {Miller, Timothy  and  Bethard, Steven  and  Amiri, Hadi  and  Savova, Guergana},
+  title     = {Unsupervised Domain Adaptation for Clinical Negation Detection},
+  booktitle = {BioNLP 2017},
+  month     = {8},
+  year      = {2017},
+  address   = {Vancouver, Canada,},
+  publisher = {Association for Computational Linguistics},
+  pages     = {165--170},
+  url       = {http://www.aclweb.org/anthology/W17-2320},
+  keywords = {negation, domain adaptation, health applications, workshop paper},
+}
+@InProceedings{bethard-EtAl:2017:SemEval,
+  author    = {Bethard, Steven  and  Savova, Guergana  and  Palmer, Martha  and  Pustejovsky, James},
+  title     = {SemEval-2017 Task 12: Clinical TempEval},
+  booktitle = {Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)},
+  month     = {8},
+  year      = {2017},
+  address   = {Vancouver, Canada},
+  publisher = {Association for Computational Linguistics},
+  pages     = {565--572},
+  url       = {http://www.aclweb.org/anthology/S17-2093},
+  keywords = {timelines, information extraction, health applications, domain adaptation, shared task paper},
+}
+@proceedings{SemEval:2017,
+  editor    = {Steven Bethard  and  Marine Carpuat  and  Marianna Apidianaki  and  Saif M. Mohammad  and  Daniel Cer  and  David Jurgens},
+  title     = {Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)},
+  month     = {8},
+  year      = {2017},
+  address   = {Vancouver, Canada},
+  publisher = {Association for Computational Linguistics},
+  url       = {http://www.aclweb.org/anthology/S17-2},
+}
+@InProceedings{viani-EtAl:2017:AIME,
+author="Viani, Natalia
+and Miller, Timothy A.
+and Dligach, Dmitriy
+and Bethard, Steven
+and Napolitano, Carlo
+and Priori, Silvia G.
+and Bellazzi, Riccardo
+and Sacchi, Lucia
+and Savova, Guergana K.",
+editor="ten Teije, Annette
+and Popow, Christian
+and Holmes, John H.
+and Sacchi, Lucia",
+title="Recurrent Neural Network Architectures for Event Extraction from Italian Medical Reports",
+bookTitle="Artificial Intelligence in Medicine: 16th Conference on Artificial Intelligence in Medicine, AIME 2017, Vienna, Austria, June 21-24, 2017, Proceedings",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="198--202",
+isbn="978-3-319-59758-4",
+doi="10.1007/978-3-319-59758-4_21",
+url="https://doi.org/10.1007/978-3-319-59758-4_21",
+note = {[Acceptance rate 39\%]},
+keywords = {timelines, information extraction, health applications},
+}
+@article{miller-EtAl:2017:JBI,
+title = "Towards generalizable entity-centric clinical coreference resolution ",
+journal = "Journal of Biomedical Informatics ",
+volume = "69",
+number = "",
+pages = "251 - 258",
+year = "2017",
+note = "",
+issn = "1532-0464",
+doi = "https://doi.org/10.1016/j.jbi.2017.04.015",
+url = "http://www.sciencedirect.com/science/article/pii/S1532046417300850",
+author = "Timothy Miller and Dmitriy Dligach and Steven Bethard and Chen Lin and Guergana Savova",
+keywords = {coreference, health applications},
+}
+@InProceedings{dligach-EtAl:2017:EACLshort,
+  author    = {Dligach, Dmitriy  and  Miller, Timothy  and  Lin, Chen  and  Bethard, Steven  and  Savova, Guergana},
+  title     = {Neural Temporal Relation Extraction},
+  booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers},
+  month     = {4},
+  year      = {2017},
+  address   = {Valencia, Spain},
+  publisher = {Association for Computational Linguistics},
+  pages     = {746--751},
+  url       = {http://www.aclweb.org/anthology/E17-2118},
+  note = {[Acceptance rate 24\%]},
+  keywords = {timelines, information extraction, health applications},
+}
+@article{pradhan2016extracting,
+  title={Extracting Hierarchy of Coherent User-Concerns to Discover Intricate User Behavior from User Reviews},
+  author={Pradhan, Ligaj and Zhang, Chengcui and Bethard, Steven},
+  journal={International Journal of Multimedia Data Engineering and Management (IJMDEM)},
+  volume={7},
+  number={4},
+  pages={63--80},
+  year={2016},
+  publisher={IGI Global},
+  url={https://dx.doi.org/10.4018/IJMDEM.2016100104},
+  keywords={information retrieval, recommender systems},
+}
+@proceedings{ClinicalNLP:2016,
+  editor    = {Anna Rumshisky  and  Kirk Roberts  and  Steven Bethard  and  Tristan Naumann},
+  title     = {Proceedings of the Clinical Natural Language Processing Workshop (ClinicalNLP)},
+  month     = {12},
+  year      = {2016},
+  address   = {Osaka, Japan},
+  publisher = {The COLING 2016 Organizing Committee},
+  url       = {http://aclweb.org/anthology/W16-42},
+  keywords = {health applications},
+}
+@InProceedings{do-bethard-moens:2016:COLING,
+  author    = {Do, Quynh Ngoc Thi  and  Bethard, Steven  and  Moens, Marie-Francine},
+  title     = {Facing the most difficult case of Semantic Role Labeling: A collaboration of word embeddings and co-training},
+  booktitle = {Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},
+  month     = {12},
+  year      = {2016},
+  address   = {Osaka, Japan},
+  publisher = {The COLING 2016 Organizing Committee},
+  pages     = {1275--1284},
+  url       = {http://aclweb.org/anthology/C16-1121},
+  note = {[Acceptance rate 32\%]},
+  keywords = {semantic relations, domain adaptation},
+}
+@InProceedings{sadeque-EtAl:2016:SocialNLP,
+  author    = {Sadeque, Farig  and  Pedersen, Ted  and  Solorio, Thamar  and  Shrestha, Prasha  and  Rey-Villamizar, Nicolas  and  Bethard, Steven},
+  title     = {Why Do They Leave: Modeling Participation in Online Depression Forums},
+  booktitle = {Proceedings of The Fourth International Workshop on Natural Language Processing for Social Media},
+  month     = {11},
+  year      = {2016},
+  address   = {Austin, TX, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {14--19},
+  url       = {http://aclweb.org/anthology/W16-6203},
+  keywords = {health applications, social media, workshop paper},
+}
+@InProceedings{reyvillamizar-EtAl:2016:LOUHI,
+  author    = {Rey-Villamizar, Nicolas  and  Shrestha, Prasha  and  Sadeque, Farig  and  Bethard, Steven  and  Pedersen, Ted  and  Mukherjee, Arjun  and  Solorio, Thamar},
+  title     = {Analysis of Anxious Word Usage on Online Health Forums},
+  booktitle = {Proceedings of the Seventh International Workshop on Health Text Mining and Information Analysis},
+  month     = {11},
+  year      = {2016},
+  address   = {Auxtin, TX},
+  publisher = {Association for Computational Linguistics},
+  pages     = {37--42},
+  url       = {http://aclweb.org/anthology/W16-6105},
+  keywords = {health applications, social media, workshop paper},
+}
+@InProceedings{do-bethard-moens:2016:UBLP,
+  author    = {Do, Quynh Ngoc Thi  and  Bethard, Steven  and  Moens, Marie-Francine},
+  title     = {Visualizing the Content of a Children's Story in a Virtual World: Lessons Learned},
+  booktitle = {Proceedings of the Workshop on Uphill Battles in Language Processing: Scaling Early Achievements to Robust Methods},
+  month     = {11},
+  year      = {2016},
+  address   = {Austin, TX},
+  publisher = {Association for Computational Linguistics},
+  pages     = {39--42},
+  url       = {http://aclweb.org/anthology/W16-6009},
+  keywords = {coreference, semantic relations, educational applications, workshop paper},
+}
+@InProceedings{lin-EtAl:2016:BioNLP16,
+  author    = {Lin, Chen  and  Miller, Timothy  and  Dligach, Dmitriy  and  Bethard, Steven  and  Savova, Guergana},
+  title     = {Improving Temporal Relation Extraction with Training Instance Augmentation},
+  booktitle = {Proceedings of the 15th Workshop on Biomedical Natural Language Processing},
+  month     = {8},
+  year      = {2016},
+  address   = {Berlin, Germany},
+  publisher = {Association for Computational Linguistics},
+  pages     = {108--113},
+  url       = {http://anthology.aclweb.org/W16-2914},
+  keywords = {timelines, information extraction, health applications, workshop paper},
+}
+@InProceedings{sapkota-EtAl:2016:P16-1,
+  author    = {Sapkota, Upendra  and  Solorio, Thamar  and  Montes, Manuel  and  Bethard, Steven},
+  title     = {Domain Adaptation for Authorship Attribution: Improved Structural Correspondence Learning},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  month     = {8},
+  year      = {2016},
+  address   = {Berlin, Germany},
+  publisher = {Association for Computational Linguistics},
+  pages     = {2226--2235},
+  url       = {http://www.aclweb.org/anthology/P16-1210},
+  note = {[Acceptance rate 28\%]},
+  keywords = {authorship analysis, domain adaptation},
 }
