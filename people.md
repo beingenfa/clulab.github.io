@@ -32,8 +32,6 @@ Marco A. Valenzuela-Escarcega, Computer Science
 
 #### Students ####
 
-Sushma Akoju, Computer Science
-
 Fahmida Alam, Computer Science
 
 [Maria Alexeeva](https://maxaalexeeva.github.io/), Linguistics
@@ -43,6 +41,8 @@ John Culnan, Linguistics
 [Enfa Rose George](https://www.enfageorge.com), Computer Science
 
 [Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
+
+Asiful Islam, Computer Science
 
 [Bulut Özler](https://ischool.arizona.edu/people/bulut-ozler), School of Information
 
