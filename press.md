@@ -4,6 +4,9 @@ title: "Press"
 order: 4
 ---
 
+CNRS France, 4/2024:
+[Entre le CNRS et l’université d’Arizona, un projet sur le traitement automatique des débats](https://www.ins2i.cnrs.fr/fr/cnrsinfo/entre-le-cnrs-et-luniversite-darizona-un-projet-sur-le-traitement-automatique-des-debats)
+
 KGUN9 Tucson, 9/2022:
 [University of Arizona creates program to make writing wills easier](https://www.kgun9.com/university-of-arizona-creates-program-to-make-writing-wills-easier)
 
