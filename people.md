@@ -40,8 +40,6 @@ Fahmida Alam, Computer Science
 
 [Maria Alexeeva](https://maxaalexeeva.github.io/), Linguistics
 
-John Culnan, Linguistics
-
 [Enfa Rose George](https://www.beingenfa.com), Computer Science
 
 [Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
@@ -64,9 +62,7 @@ Asiful Islam, Computer Science
 
 [Robert Vacareanu](https://www.cs.arizona.edu/person/robert-vacareanu), Computer Science
 
-[Zeyu Zhang](https://jerryzeyu.github.io/), School of Information
-
-[Yiyun Zhao](https://yiyunzhao.github.io/), Linguistics
+Jiacheng Zhang, School of Information
 
 [Andrew Lee Zupon](https://zupon.github.io/), Linguistics
 
@@ -76,6 +72,12 @@ Asiful Islam, Computer Science
 [Keith Alcock](http://www.keithalcock.com), Computer Science
 
 #### Alumni ####
+
+[Zeyu Zhang](https://www.linkedin.com/in/zeyu-zhang-902035147/) obtained his PhD in Information in 2023.
+He is currently an Applied Scientist at Amazon.
+
+[Yiyun Zhao](https://www.linkedin.com/in/yiyun-zhao-677a42141/) obtained her PhD in Linguistics in 2022.
+She is currently a Machine Learning Scientist at JPMorgan Chase & Co.
 
 [Zhengzhong Liang](https://zhengzhongliang.github.io) obtained his PhD in 2023. He is currently at Google.
 
@@ -88,13 +90,15 @@ Fan Luo obtained her PhD in Computer Science in 2022. She is currently an applie
 [Zheng Tang](http://www.ztang.info) obtained his PhD in Computer Science in 2022. He is currently a research scientist at Samsung.
 
 [Dongfang Xu](https://www.linkedin.com/in/dongfangxu9/) obtained his PhD in Information in 2021.
-He is currently a Research Fellow at the [Computational Health Informatics Program (CHIP) at Boston Children's Hospital.](http://chip.org/)
+He is currently a Research Data Scientist at Cedars-Sinai.
 
 [Vikas Yadav](https://www.linkedin.com/in/vyf95/) obtained his PhD in Information in 2021.
-He is currently a Research Scientist at Amazon.
+He is currently a Staff Research Scientist at ServiceNow.
+
+[John Culnan](https://www.linkedin.com/in/john-culnan-354a224a/) obtained his PhD in Linguistics in 2021.
 
 [Farig Sadeque](https://www.linkedin.com/in/farig-sadeque-a982125b/) obtained his PhD in Information in 2019.
-He is currently a Research Scientist at [Educational Testing Service (ETS)](https://www.ets.org/).
+He is currently an Associate Professor at BRAC University.
 
 Ajay Nagesh was a postdoc in the lab until December 2018. He is now at [Didi Labs](http://www.didi-labs.com/).
 
