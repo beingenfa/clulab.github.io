@@ -17,6 +17,8 @@ order: 1
 
 [Clayton Morrison](http://w3.sista.arizona.edu/~clayton/), School of Information, Statistics GIDP
 
+[Liangming Pan](https://liangmingpan.bio/), School of Information
+
 [Adarsh Pyarelal](http://adarsh.cc), School of Information
 
 [Ellen Riloff](http://www2.cs.arizona.edu/~riloff/) ([@ellenriloff](https://twitter.com/ellenriloff)), Computer Science
