@@ -1,3 +1,13 @@
+@inproceedings{kwak-et-al-nllp2024-error-analysis,
+    title = "Classify First, and Then Extract: Prompt Chaining Technique for Information Extraction",
+    author = "Alice Kwak and Clayton Morrison and Derek Bambauer and Mihai Surdeanu",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2024",
+    month = nov,
+    year = "2024",
+    url = "https://clulab.org/papers/nllp2024_kwak-et-al.pdf",
+    abstract = "This work presents a new task-aware prompt design and example retrieval approach for information extraction (IE) using a prompt chaining technique. Our approach divides IE tasks into two steps: (1) text classification to understand what information (e.g., entity or event types) is contained in the underlying text and (2) information extraction for the identified types. Initially, we use a large language model (LLM) in a few-shot setting to classify the contained information. The classification output is used to select the relevant prompt and retrieve the examples relevant to the input text. Finally, we ask a LLM to do the information extraction with the generated prompt. By evaluating our approach on legal IE tasks with two different LLMs, we demonstrate that the prompt chaining technique improves the LLM’s overall performance in a few-shot setting when compared to the baseline in which examples from all possible classes are included in the prompt. Our approach can be used in a low-resource setting as it does not require a large amount of training data. Also, it can be easily adapted to many different IE tasks by simply adjusting the prompts. Lastly, it provides a cost benefit by reducing the number of tokens in the prompt.",
+}
+
 @inproceedings{singh-2024-learning,
     title = "Learning to Generate Rules for Realistic Few-Shot Relation Classification: An Encoder-Decoder Approach",
     author = "Singh, Mayank and Blanco, Eduardo",
