@@ -42,8 +42,6 @@ Fahmida Alam, Computer Science
 
 [Enfa Rose George](https://www.beingenfa.com), Computer Science
 
-[Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
-
 Asiful Islam, Computer Science
 
 [Bulut Özler](https://ischool.arizona.edu/people/bulut-ozler), School of Information
@@ -60,20 +58,21 @@ Asiful Islam, Computer Science
 
 [Xin Su](https://xinsu.name), School of Information
 
-[Robert Vacareanu](https://www.cs.arizona.edu/person/robert-vacareanu), Computer Science
-
 [Minglai Yang](https://ymingl.com), Computer Science
 
 Jiacheng Zhang, School of Information
-
-[Andrew Lee Zupon](https://zupon.github.io/), Linguistics
-
 
 #### Research Programmers ####
 
 [Keith Alcock](http://www.keithalcock.com), Computer Science
 
 #### Alumni ####
+
+[Robert Vacareanu](https://www.cs.arizona.edu/person/robert-vacareanu), 2024 PhD in Computer Science, now at Scale.AI.
+
+[Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), 2024 PhD in Computer Science, now at Google.
+
+[Andrew Lee Zupon](https://zupon.github.io/), 2023 PhD in Linguistics, now at Google.
 
 [Zeyu Zhang](https://www.linkedin.com/in/zeyu-zhang-902035147/), 2023 PhD in Information, is currently an applied scientist at Amazon.
 
