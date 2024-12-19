@@ -17,6 +17,8 @@ order: 1
 
 [Clayton Morrison](http://w3.sista.arizona.edu/~clayton/), School of Information, Statistics GIDP
 
+[Liangming Pan](https://liangmingpan.bio/), School of Information
+
 [Adarsh Pyarelal](http://adarsh.cc), School of Information
 
 [Ellen Riloff](http://www2.cs.arizona.edu/~riloff/) ([@ellenriloff](https://twitter.com/ellenriloff)), Computer Science
@@ -38,8 +40,6 @@ Fahmida Alam, Computer Science
 
 [Maria Alexeeva](https://maxaalexeeva.github.io/), Linguistics
 
-John Culnan, Linguistics
-
 [Enfa Rose George](https://www.beingenfa.com), Computer Science
 
 [Shahriar Golchin](https://www.cs.arizona.edu/person/shahriar-golchin), Computer Science
@@ -50,7 +50,11 @@ Asiful Islam, Computer Science
 
 [Mahdi Rahimi](https://www.cs.arizona.edu/person/mahdi-rahimi), Computer Science
 
+[MohammadHossein Rezaei](https://www2.cs.arizona.edu/~mhrezaei/), Computer Science
+
 [Haris Riaz](https://www.cs.arizona.edu/person/haris-riaz), Computer Science
+
+[Reza Sanayei](https://rsanayei.github.io/), Computer Science
 
 [Sarah Stueve](https://ischool.arizona.edu/people/sarah-stueve), School of Information
 
@@ -60,9 +64,7 @@ Asiful Islam, Computer Science
 
 [Minglai Yang](https://ymingl.com), Computer Science
 
-[Zeyu Zhang](https://jerryzeyu.github.io/), School of Information
-
-[Yiyun Zhao](https://yiyunzhao.github.io/), Linguistics
+Jiacheng Zhang, School of Information
 
 [Andrew Lee Zupon](https://zupon.github.io/), Linguistics
 
@@ -73,41 +75,44 @@ Asiful Islam, Computer Science
 
 #### Alumni ####
 
-[Zhengzhong Liang](https://zhengzhongliang.github.io) obtained his PhD in 2023. He is currently at Google.
+[Zeyu Zhang](https://www.linkedin.com/in/zeyu-zhang-902035147/), 2023 PhD in Information, is currently an applied scientist at Amazon.
 
-[Mithun Paul](https://www2.cs.arizona.edu/people/mithunpaul/) obtained his PhD in Computer Science in 2022. He is currently a postdoctoral researcher at USC.
+[Yiyun Zhao](https://www.linkedin.com/in/yiyun-zhao-677a42141/), 2022 PhD in Linguistics, is currently a machine learning scientist at JPMorgan Chase & Co.
 
-Hoang Nguyen Hung Van obtained his PhD in Computer Science in 2022. He is currently a postdoctoral researcher at UC Boulder.
+[Zhengzhong Liang](https://www.linkedin.com/in/zhengzhong-liang-095810137/), 2023 PhD in Computer Science is currently a software engineer at Google.
 
-Fan Luo obtained her PhD in Computer Science in 2022. She is currently an applied scientist at Amazon Web Services.
+[Mithun Paul](https://www.linkedin.com/in/mithunpaul/), 2022 PhD in Computer Science is currently a research scientist and product manager at the University of Arizona.
 
-[Zheng Tang](http://www.ztang.info) obtained his PhD in Computer Science in 2022. He is currently a research scientist at Samsung.
+[Hoang Nguyen Hung Van](https://www.linkedin.com/in/hoangnhvan/), 2022 PhD in Computer Science is currently a postdoctoral researcher at Harvard Medical School.
 
-[Dongfang Xu](https://www.linkedin.com/in/dongfangxu9/) obtained his PhD in Information in 2021.
-He is currently a Research Fellow at the [Computational Health Informatics Program (CHIP) at Boston Children's Hospital.](http://chip.org/)
+[Fan Luo](https://www.linkedin.com/in/fan-luo-nlp/), 2022 PhD in Computer Science, is currently an applied scientist at Amazon Web Services.
 
-[Vikas Yadav](https://www.linkedin.com/in/vyf95/) obtained his PhD in Information in 2021.
-He is currently a Research Scientist at Amazon.
+[Zheng Tang](https://www.linkedin.com/in/zhengtang1120/), 2022 PhD in Computer Science, is currently a senior researcher at Samsung Research America.
 
-[Farig Sadeque](https://www.linkedin.com/in/farig-sadeque-a982125b/) obtained his PhD in Information in 2019.
-He is currently a Research Scientist at [Educational Testing Service (ETS)](https://www.ets.org/).
+[Dongfang Xu](https://www.linkedin.com/in/dongfangxu9/), 2021 PhD in Information, is currently a Research Data Scientist at Cedars-Sinai.
 
-Ajay Nagesh was a postdoc in the lab until December 2018. He is now at [Didi Labs](http://www.didi-labs.com/).
+[Vikas Yadav](https://www.linkedin.com/in/vyf95/), 2021 PhD in Information, is currently a staff research scientist at ServiceNow.
 
-[Gustave Hahn-Powell](http://linguistics.arizona.edu/user/gustave-hahn-powell) obtained his PhD in Linguistics in 2018. He is currently faculty in Linguistics at UA, as well as a co-founder of [lum.ai](https://lum.ai).
+[John Culnan](https://www.linkedin.com/in/john-culnan-354a224a/), 2021 PhD in Linguistics.
 
-[Dane Bell](http://www.u.arizona.edu/~dane/) obtained his PhD in Linguistics in 2018. He is currently at [lum.ai](https://lum.ai), which he co-founded.
+[Enrique Noriega](https://www.linkedin.com/in/enoriega/), 2020 PhD in Information, is currently a postdoc in the CLU lab.
 
-Thomas Hicks was a research programmer in our group. He now resides in the School of Information at UA.
+[Farig Sadeque](https://www.linkedin.com/in/farig-sadeque-a982125b/), 2019 PhD in Information, is currently an associate professor at BRAC University.
 
-[Rebecca Sharp](http://linguistics.arizona.edu/user/rebecca-sharp) obtained her PhD in Linguistics in 2017 and is now a Research Scientist at [Lex Machina](https://lexmachina.com).
+[Ajay Nagesh](https://www.linkedin.com/in/ajay-nagesh-71576352/), postdoc in the lab until 2018, is currently a senior applied scientist at Amazon.
 
-[Peter Jansen](http://ischool.arizona.edu/users/peter-jansen) was a postdoc in this lab before he obtained his position in the School of Information.
+[Gustave Hahn-Powell](https://www.linkedin.com/in/gushahnpowell/), 2018 PhD in Linguistics, is currently an assistant professor of Linguistics at the University of Arizona, as well as a co-founder of [lum.ai](https://lum.ai).
 
-Marco A. Valenzuela-Escarcega obtained his PhD in 2016 and is now a research scientist in the CLU lab, as well as a co-founder of [lum.ai](http://lum.ai).
+Dane Bell, 2018 PhD in Linguistics, is currently at [lum.ai](https://lum.ai), which he co-founded.
 
-[Daniel Fried](http://www.cs.arizona.edu/~dfried/), Computer Science, now assistant professor at CMU
+[Thomas Hicks](https://www.linkedin.com/in/hickst/), research programmer in our group until 2018, is currently a computing sciences researcher at the College of Information Science at the University of Arizona.
 
-[Anh Tran](https://trananh.github.io), PhD Computer Science, now at Google
+[Rebecca Sharp](https://www.linkedin.com/in/rebecca-sharp-b5163b12b/), 2017 PhD in Linguistics, is now a Research Scientist at [Lex Machina](https://lexmachina.com).
 
-[Enrique Noriega](https://enoriega.info), PhD School of Information, now a postdoc in the CLU lab
+[Marco A. Valenzuela-Escarcega](https://www.linkedin.com/in/marco-antonio-valenzuela-esc%C3%A1rcega-08b7a96b/), 2016 PhD in Computer Science, is currently a research scientist in the CLU lab, as well as a co-founder of [lum.ai](http://lum.ai).
+
+[Daniel Fried](https://dpfried.github.io/), 2014 BS in Computer Science, is currently an assistant professor at CMU.
+
+[Anh Tran](https://trananh.github.io), 2014 PhD in Computer Science, is currently a software engineer at Google.
+
+[Peter Jansen](https://infosci.arizona.edu/person/peter-jansen), postdoc in the lab in 2013, is currently an associate professor in the School of Information at the University of Arizona.
