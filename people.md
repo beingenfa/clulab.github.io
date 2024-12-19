@@ -58,6 +58,8 @@ Asiful Islam, Computer Science
 
 [Robert Vacareanu](https://www.cs.arizona.edu/person/robert-vacareanu), Computer Science
 
+[Minglai Yang](https://ymingl.com), Computer Science
+
 [Zeyu Zhang](https://jerryzeyu.github.io/), School of Information
 
 [Yiyun Zhao](https://yiyunzhao.github.io/), Linguistics
