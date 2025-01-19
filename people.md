@@ -50,7 +50,7 @@ Asiful Islam, Computer Science
 
 [MohammadHossein Rezaei](https://www2.cs.arizona.edu/~mhrezaei/), Computer Science
 
-[Haris Riaz](https://www.cs.arizona.edu/person/haris-riaz), Computer Science
+[Haris Riaz](https://hriaz17.github.io/), Computer Science
 
 [Reza Sanayei](https://rsanayei.github.io/), Computer Science
 
