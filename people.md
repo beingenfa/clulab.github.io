@@ -48,7 +48,7 @@ Asiful Islam, Computer Science
 
 [Mahdi Rahimi](https://www.cs.arizona.edu/person/mahdi-rahimi), Computer Science
 
-[MohammadHossein Rezaei](https://www2.cs.arizona.edu/~mhrezaei/), Computer Science
+[MohammadHossein Rezaei](https://mhrezaei.com), Computer Science
 
 [Haris Riaz](https://hriaz17.github.io/), Computer Science
 
