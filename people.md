@@ -40,6 +40,8 @@ Fahmida Alam, Computer Science
 
 [Maria Alexeeva](https://maxaalexeeva.github.io/), Linguistics
 
+[Portia Cooper](https://pcoopercoder.github.io), Computer Science
+
 [Enfa Rose George](https://www.beingenfa.com), Computer Science
 
 Asiful Islam, Computer Science
