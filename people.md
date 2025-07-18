@@ -62,6 +62,8 @@ Asiful Islam, Computer Science
 
 [Minglai Yang](https://ymingl.com), Computer Science
 
+[Zijie Wang](https://wang-zijie.github.io/), Computer Science
+
 Jiacheng Zhang, School of Information
 
 #### Research Programmers ####
