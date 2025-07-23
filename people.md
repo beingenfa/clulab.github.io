@@ -56,6 +56,8 @@ Asiful Islam, Computer Science
 
 [Haris Riaz](https://hriaz17.github.io/), Computer Science
 
+[Saiful Islam Salim](https://scholar.google.com/citations?user=PRLujl4AAAAJ&hl=en), Computer Science
+
 [Reza Sanayei](https://rsanayei.github.io/), Computer Science
 
 [Sarah Stueve](https://ischool.arizona.edu/people/sarah-stueve), School of Information
