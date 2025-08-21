@@ -48,7 +48,11 @@ Fahmida Alam, Computer Science
 
 Asiful Islam, Computer Science
 
-[Bulut Özler](https://ischool.arizona.edu/people/bulut-ozler), School of Information
+[Ayesha Khatun](https://www.linkedin.com/in/ayeshakhatunsujana/), Information Science
+
+[Yeaeun Kwon](https://yeaeunkwon.github.io/), Information Science
+
+[Kadir Bulut Özler](https://www.linkedin.com/in/kbozler/), Information Science
 
 [Mahdi Rahimi](https://www.cs.arizona.edu/person/mahdi-rahimi), Computer Science
 
@@ -60,21 +64,21 @@ Asiful Islam, Computer Science
 
 [Reza Sanayei](https://rsanayei.github.io/), Computer Science
 
-[Sarah Stueve](https://ischool.arizona.edu/people/sarah-stueve), School of Information
-
-[Xin Su](https://xinsu.name), School of Information
+[Sarah Stueve](https://www.linkedin.com/in/sarah-stueve/), Information Science
 
 [Minglai Yang](https://ymingl.com), Computer Science
 
 [Zijie Wang](https://wang-zijie.github.io/), Computer Science
 
-Jiacheng Zhang, School of Information
+[Jiacheng Zhang](https://www.linkedin.com/in/jiacheng-z-316147142/), Information Science
 
 #### Research Programmers ####
 
 [Keith Alcock](http://www.keithalcock.com), Computer Science
 
 #### Alumni ####
+
+[Xin Su](https://xinsu.name), 2024 PhD in Information Science, now at Intel.
 
 [Robert Vacareanu](https://www.cs.arizona.edu/person/robert-vacareanu), 2024 PhD in Computer Science, now at Scale.AI.
 
