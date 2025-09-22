@@ -7,19 +7,17 @@ order: 1
 
 #### Faculty ####
 
-[Steven Bethard](http://bethard.github.io), School of Information, Linguistics, Computer Science, Cognitive Science
+[Steven Bethard](http://bethard.github.io), Information Science, Linguistics, Computer Science, Cognitive Science
 
 [Eduardo Blanco](https://eduardoblanco.github.io/), Computer Science
 
 [Gus Hahn-Powell](https://linguistics.arizona.edu/user/gus-hahn-powell), Linguistics
 
-[Peter Jansen](http://ischool.arizona.edu/users/peter-jansen) ([@peterjansen_ai](https://twitter.com/peterjansen_ai)), School of Information
+[Peter Jansen](http://ischool.arizona.edu/users/peter-jansen) ([@peterjansen_ai](https://twitter.com/peterjansen_ai)), Information Science
 
-[Clayton Morrison](http://w3.sista.arizona.edu/~clayton/), School of Information, Statistics GIDP
+[Clayton Morrison](http://w3.sista.arizona.edu/~clayton/), Information Science, Statistics GIDP
 
-[Liangming Pan](https://liangmingpan.bio/), School of Information
-
-[Adarsh Pyarelal](http://adarsh.cc), School of Information
+[Adarsh Pyarelal](http://adarsh.cc), Information Science
 
 [Ellen Riloff](http://www2.cs.arizona.edu/~riloff/) ([@ellenriloff](https://twitter.com/ellenriloff)), Computer Science
 
@@ -27,7 +25,7 @@ order: 1
 
 #### Postdocs, Research Scientists ####
 
-[Egoitz Laparra](https://egolaparra.github.io), School of Information
+[Egoitz Laparra](https://egolaparra.github.io), Information Science
 
 Marco A. Valenzuela-Escarcega, Computer Science
 
@@ -126,4 +124,4 @@ Dane Bell, 2018 PhD in Linguistics, is currently at [lum.ai](https://lum.ai), wh
 
 [Anh Tran](https://trananh.github.io), 2014 PhD in Computer Science, is currently a software engineer at Google.
 
-[Peter Jansen](https://infosci.arizona.edu/person/peter-jansen), postdoc in the lab in 2013, is currently an associate professor in the School of Information at the University of Arizona.
+[Peter Jansen](https://infosci.arizona.edu/person/peter-jansen), postdoc in the lab in 2013, is currently an associate professor in the College of Information Science at the University of Arizona.
