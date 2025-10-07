@@ -42,7 +42,7 @@ Fahmida Alam, Computer Science
 
 [Razvan Dumitru](https://github.com/RazvanDu), Computer Science
 
-[Enfa Rose George](https://www.beingenfa.com), Computer Science
+[Enfa Fane _<small>(prev: Enfa George)</small>_](https://www.beingenfa.com), Computer Science
 
 Asiful Islam, Computer Science
 
